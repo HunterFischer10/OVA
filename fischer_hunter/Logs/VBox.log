@@ -1,0 +1,2083 @@
+VirtualBox VM 5.2.16 r123759 linux.amd64 (Jul 16 2018 15:23:38) release log
+00:00:00.349790 Log opened 2018-10-03T14:07:21.162963000Z
+00:00:00.349792 Build Type: release
+00:00:00.349794 OS Product: Linux
+00:00:00.349795 OS Release: 4.15.0-29-generic
+00:00:00.349796 OS Version: #31-Ubuntu SMP Tue Jul 17 15:39:52 UTC 2018
+00:00:00.349815 DMI Product Name: 32091L6
+00:00:00.349822 DMI Product Version: ThinkCentre M92p
+00:00:00.349857 Host RAM: 7768MB (7.5GB) total, 7115MB (6.9GB) available
+00:00:00.349861 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.349861 Process ID: 2094
+00:00:00.349862 Package type: LINUX_64BITS__UBUNTU_18_04
+00:00:00.362979 Installed Extension Packs:
+00:00:00.362991   Oracle VM VirtualBox Extension Pack (Version: 5.2.16 r123759; VRDE Module: VBoxVRDP)
+00:00:00.363698 Console: Machine state changed to 'Starting'
+00:00:00.380869 Qt version: 5.9.5
+00:00:00.380869 X11 Window Manager code: 5
+00:00:00.389108 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.390407 X Server details: vendor: The X.Org Foundation, release: 11906000, protocol version: 11.0, display string: :0
+00:00:00.390418 Using XKB for keycode to scan code conversion
+00:00:00.391743 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x0 x 1920x1173
+00:00:00.395955 SUP: Loaded VMMR0.r0 (/usr/lib/virtualbox/VMMR0.r0) at 0xXXXXXXXXXXXXXXXX - ModuleInit at XXXXXXXXXXXXXXXX and ModuleTerm at XXXXXXXXXXXXXXXX
+00:00:00.395976 SUP: VMMR0EntryEx located at XXXXXXXXXXXXXXXX and VMMR0EntryFast at XXXXXXXXXXXXXXXX
+00:00:00.401348 Guest OS type: 'Ubuntu_64'
+00:00:00.405620 fHMForced=true - Lots of RAM
+00:00:00.405648 fHMForced=true - SMP
+00:00:00.405652 fHMForced=true - 64-bit guest
+00:00:00.412916 crCtlSubmit failed (rc=VERR_NOT_SUPPORTED)
+00:00:00.415536 File system of '/usr/share/virtualbox/VBoxGuestAdditions.iso' (DVD) is ext4
+00:00:00.422735 File system of '/home/compsci/VirtualBox VMs/fischer_hunter/Snapshots' (snapshots) is ext4
+00:00:00.422750 File system of '/home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{6a7fe59f-fcac-4e4b-a8e1-6cfdb387662d}.vdi' is ext4
+00:00:00.453024 VideoRec: Only video will be recorded
+00:00:00.455121 Shared clipboard service loaded
+00:00:00.455127 Shared clipboard mode: Off
+00:00:00.455944 Drag and drop service loaded
+00:00:00.455949 Drag and drop mode: Off
+00:00:00.499451 OpenGL Info: Render SPU: Opening display :0
+00:00:00.505005 OpenGL Info: Render SPU: Opening display :0
+00:00:00.515446 OpenGL Info: Render SPU: GL_VENDOR:   Intel Open Source Technology Center
+00:00:00.515464 OpenGL Info: Render SPU: GL_RENDERER: Mesa DRI Intel(R) Ivybridge Desktop 
+00:00:00.515467 OpenGL Info: Render SPU: GL_VERSION:  3.0 Mesa 18.0.5
+00:00:00.515469 OpenGL Info: Render SPU: GL_EXTENSIONS: GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_trinary_minmax GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_APPLE_object_purgeable GL_APPLE_packed_pixels GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sync GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_window_pos GL_ATI_blend_equation_separate GL_ATI_draw_buffers GL_ATI_separate_stencil GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_copy_texture GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_gpu_program_parameters GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_subtexture GL_EXT_texture GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_add GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod_bias GL_EXT_texture_object GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_IBM_multimode_draw_arrays GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_INGR_blend_func_separate GL_INTEL_performance_query GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_robustness GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_MESA_window_pos GL_NV_blend_square GL_NV_conditional_render GL_NV_depth_clamp GL_NV_light_max_exponent GL_NV_packed_depth_stencil GL_NV_primitive_restart GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_env_combine4 GL_NV_texture_rectangle GL_OES_EGL_image GL_OES_read_format GL_S3_s3tc GL_SGIS_generate_mipmap GL_SGIS_texture_border_clamp GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_SUN_multi_draw_arrays 
+00:00:00.515516 OpenGL Info: Host does not support OpenGL extension(s):
+00:00:00.515518 OpenGL Info:   GL_ARB_shadow_ambient
+00:00:00.515556 OpenGL Info:   GL_ATI_texture_mirror_once
+00:00:00.515588 OpenGL Info:   GL_EXT_clip_volume_hint
+00:00:00.515596 OpenGL Info:   GL_EXT_blend_logic_op
+00:00:00.515657 OpenGL Info:   GL_NV_fog_distance
+00:00:00.515665 OpenGL Info:   GL_NV_fragment_program
+00:00:00.515672 OpenGL Info:   GL_NV_fragment_program_option
+00:00:00.515679 OpenGL Info:   GL_NV_fragment_program2
+00:00:00.515686 OpenGL Info:   GL_NV_register_combiners
+00:00:00.515693 OpenGL Info:   GL_NV_register_combiners2
+00:00:00.515717 OpenGL Info:   GL_NV_vertex_program
+00:00:00.515724 OpenGL Info:   GL_NV_vertex_program1_1
+00:00:00.515731 OpenGL Info:   GL_NV_vertex_program2
+00:00:00.515738 OpenGL Info:   GL_NV_vertex_program2_option
+00:00:00.515745 OpenGL Info:   GL_NV_vertex_program3
+00:00:00.515789 OpenGL Info:   GL_GREMEDY_string_marker
+00:00:00.517315 OpenGL Info: Render SPU: GL_MAX_VERTEX_UNIFORM_COMPONENTS_ARB=16384
+00:00:00.517324 OpenGL Info: Host supports version 3.0 [3.0 Mesa 18.0.5]
+00:00:00.517327 OpenGL Info: Cfg: u32Caps(0x1f), fVisualBitsDefault(0x23)
+00:00:00.517386 Shared OpenGL service loaded -- 3D enabled
+00:00:00.520563 Guest Control service loaded
+00:00:00.523021 ************************* CFGM dump *************************
+00:00:00.523032 [/] (level 0)
+00:00:00.523042   CSAMEnabled       <integer> = 0x0000000000000001 (1)
+00:00:00.523049   CpuExecutionCap   <integer> = 0x0000000000000064 (100)
+00:00:00.523050   EnablePAE         <integer> = 0x0000000000000000 (0)
+00:00:00.523050   HMEnabled         <integer> = 0x0000000000000001 (1)
+00:00:00.523051   MemBalloonSize    <integer> = 0x0000000000000000 (0)
+00:00:00.523052   Name              <string>  = "fischer_hunter" (cb=15)
+00:00:00.523053   NumCPUs           <integer> = 0x0000000000000002 (2)
+00:00:00.523054   PATMEnabled       <integer> = 0x0000000000000001 (1)
+00:00:00.523055   PageFusionAllowed <integer> = 0x0000000000000000 (0)
+00:00:00.523055   RamHoleSize       <integer> = 0x0000000020000000 (536 870 912, 512 MB)
+00:00:00.523057   RamSize           <integer> = 0x0000000100000000 (4 294 967 296, 4 096 MB, 4.0 GB)
+00:00:00.523059   RawR0Enabled      <integer> = 0x0000000000000001 (1)
+00:00:00.523059   RawR3Enabled      <integer> = 0x0000000000000001 (1)
+00:00:00.523060   TimerMillies      <integer> = 0x000000000000000a (10)
+00:00:00.523061   UUID              <bytes>   = "89 ad 42 81 81 4f 18 4c 9c 10 c2 06 39 e6 40 8e" (cb=16)
+00:00:00.523065 
+00:00:00.523067 [/CPUM/] (level 1)
+00:00:00.523068   GuestCpuName       <string>  = "host" (cb=5)
+00:00:00.523069   PortableCpuIdLevel <integer> = 0x0000000000000000 (0)
+00:00:00.523070   SpecCtrl           <integer> = 0x0000000000000000 (0)
+00:00:00.523071 
+00:00:00.523074 [/DBGC/] (level 1)
+00:00:00.523075   GlobalInitScript <string>  = "/home/compsci/.config/VirtualBox/dbgc-init" (cb=43)
+00:00:00.523076   HistoryFile      <string>  = "/home/compsci/.config/VirtualBox/dbgc-history" (cb=46)
+00:00:00.523076   LocalInitScript  <string>  = "/home/compsci/VirtualBox VMs/fischer_hunter/dbgc-init" (cb=54)
+00:00:00.523077 
+00:00:00.523077 [/DBGF/] (level 1)
+00:00:00.523078   Path <string>  = "/home/compsci/VirtualBox VMs/fischer_hunter/debug/;/home/compsci/VirtualBox VMs/fischer_hunter/;/home/compsci/" (cb=111)
+00:00:00.523079 
+00:00:00.523079 [/Devices/] (level 1)
+00:00:00.523080 
+00:00:00.523080 [/Devices/8237A/] (level 2)
+00:00:00.523081 
+00:00:00.523081 [/Devices/8237A/0/] (level 3)
+00:00:00.523083   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.523084 
+00:00:00.523084 [/Devices/GIMDev/] (level 2)
+00:00:00.523085 
+00:00:00.523085 [/Devices/GIMDev/0/] (level 3)
+00:00:00.523086   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.523087 
+00:00:00.523087 [/Devices/VMMDev/] (level 2)
+00:00:00.523088 
+00:00:00.523088 [/Devices/VMMDev/0/] (level 3)
+00:00:00.523089   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.523090   PCIDeviceNo   <integer> = 0x0000000000000004 (4)
+00:00:00.523091   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.523091   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.523092 
+00:00:00.523093 [/Devices/VMMDev/0/Config/] (level 4)
+00:00:00.523094   GuestCoreDumpDir <string>  = "/home/compsci/VirtualBox VMs/fischer_hunter/Snapshots" (cb=54)
+00:00:00.523094 
+00:00:00.523095 [/Devices/VMMDev/0/LUN#0/] (level 4)
+00:00:00.523096   Driver <string>  = "HGCM" (cb=5)
+00:00:00.523096 
+00:00:00.523097 [/Devices/VMMDev/0/LUN#0/Config/] (level 5)
+00:00:00.523098   Object <integer> = 0x00007f9508000b70 (140 278 061 075 312)
+00:00:00.523099 
+00:00:00.523099 [/Devices/VMMDev/0/LUN#999/] (level 4)
+00:00:00.523100   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.523101 
+00:00:00.523101 [/Devices/VMMDev/0/LUN#999/Config/] (level 5)
+00:00:00.523102   First   <integer> = 0x0000000000000000 (0)
+00:00:00.523103   Last    <integer> = 0x0000000000000000 (0)
+00:00:00.523104   papLeds <integer> = 0x00007f9540001b10 (140 279 000 603 408)
+00:00:00.523105 
+00:00:00.523106 [/Devices/acpi/] (level 2)
+00:00:00.523106 
+00:00:00.523107 [/Devices/acpi/0/] (level 3)
+00:00:00.523108   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.523108   PCIDeviceNo   <integer> = 0x0000000000000007 (7)
+00:00:00.523109   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.523110   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.523110 
+00:00:00.523111 [/Devices/acpi/0/Config/] (level 4)
+00:00:00.523112   CpuHotPlug          <integer> = 0x0000000000000000 (0)
+00:00:00.523113   FdcEnabled          <integer> = 0x0000000000000000 (0)
+00:00:00.523114   HostBusPciAddress   <integer> = 0x0000000000000000 (0)
+00:00:00.523114   HpetEnabled         <integer> = 0x0000000000000000 (0)
+00:00:00.523115   IOAPIC              <integer> = 0x0000000000000001 (1)
+00:00:00.523116   IocPciAddress       <integer> = 0x0000000000010000 (65 536)
+00:00:00.523117   NumCPUs             <integer> = 0x0000000000000002 (2)
+00:00:00.523118   Parallel0IoPortBase <integer> = 0x0000000000000000 (0)
+00:00:00.523118   Parallel0Irq        <integer> = 0x0000000000000000 (0)
+00:00:00.523119   Parallel1IoPortBase <integer> = 0x0000000000000000 (0)
+00:00:00.523120   Parallel1Irq        <integer> = 0x0000000000000000 (0)
+00:00:00.523120   Serial0IoPortBase   <integer> = 0x0000000000000000 (0)
+00:00:00.523121   Serial0Irq          <integer> = 0x0000000000000000 (0)
+00:00:00.523122   Serial1IoPortBase   <integer> = 0x0000000000000000 (0)
+00:00:00.523122   Serial1Irq          <integer> = 0x0000000000000000 (0)
+00:00:00.523123   ShowCpu             <integer> = 0x0000000000000001 (1)
+00:00:00.523124   ShowRtc             <integer> = 0x0000000000000000 (0)
+00:00:00.523125   SmcEnabled          <integer> = 0x0000000000000000 (0)
+00:00:00.523125 
+00:00:00.523126 [/Devices/acpi/0/LUN#0/] (level 4)
+00:00:00.523127   Driver <string>  = "ACPIHost" (cb=9)
+00:00:00.523127 
+00:00:00.523128 [/Devices/acpi/0/LUN#0/Config/] (level 5)
+00:00:00.523129 
+00:00:00.523129 [/Devices/acpi/0/LUN#1/] (level 4)
+00:00:00.523130   Driver <string>  = "ACPICpu" (cb=8)
+00:00:00.523131 
+00:00:00.523131 [/Devices/acpi/0/LUN#1/Config/] (level 5)
+00:00:00.523132 
+00:00:00.523132 [/Devices/ahci/] (level 2)
+00:00:00.523133 
+00:00:00.523133 [/Devices/ahci/0/] (level 3)
+00:00:00.523134   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.523135   PCIDeviceNo   <integer> = 0x000000000000000d (13)
+00:00:00.523136   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.523137   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.523137 
+00:00:00.523138 [/Devices/ahci/0/Config/] (level 4)
+00:00:00.523139   Bootable  <integer> = 0x0000000000000001 (1)
+00:00:00.523139   PortCount <integer> = 0x0000000000000001 (1)
+00:00:00.523140 
+00:00:00.523140 [/Devices/ahci/0/Config/Port0/] (level 5)
+00:00:00.523142   Hotpluggable <integer> = 0x0000000000000000 (0)
+00:00:00.523142 
+00:00:00.523143 [/Devices/ahci/0/LUN#0/] (level 4)
+00:00:00.523144   Driver <string>  = "VD" (cb=3)
+00:00:00.523145 
+00:00:00.523145 [/Devices/ahci/0/LUN#0/Config/] (level 5)
+00:00:00.523146   BlockCache <integer> = 0x0000000000000001 (1)
+00:00:00.523147   Format     <string>  = "VDI" (cb=4)
+00:00:00.523148   Mountable  <integer> = 0x0000000000000000 (0)
+00:00:00.523148   Path       <string>  = "/home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{6a7fe59f-fcac-4e4b-a8e1-6cfdb387662d}.vdi" (cb=97)
+00:00:00.523149   Type       <string>  = "HardDisk" (cb=9)
+00:00:00.523150   UseNewIo   <integer> = 0x0000000000000001 (1)
+00:00:00.523150 
+00:00:00.523151 [/Devices/ahci/0/LUN#0/Config/Parent/] (level 6)
+00:00:00.523152   Format <string>  = "VDI" (cb=4)
+00:00:00.523153   Path   <string>  = "/home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{65e0e7a2-f291-416d-94fa-f2c30f350dc1}.vdi" (cb=97)
+00:00:00.523153 
+00:00:00.523154 [/Devices/ahci/0/LUN#0/Config/Parent/Parent/] (level 7)
+00:00:00.523155   Format <string>  = "VDI" (cb=4)
+00:00:00.523156   Path   <string>  = "/home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{0343b106-aeb5-4405-baf3-eedcaf39ad68}.vdi" (cb=97)
+00:00:00.523156 
+00:00:00.523157 [/Devices/ahci/0/LUN#0/Config/Parent/Parent/Parent/] (level 8)
+00:00:00.523158   Format <string>  = "VDI" (cb=4)
+00:00:00.523159   Path   <string>  = "/home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{fc1dd90f-b46a-4812-b6be-91dc9b80fe49}.vdi" (cb=97)
+00:00:00.523159 
+00:00:00.523160 [/Devices/ahci/0/LUN#0/Config/Parent/Parent/Parent/Parent/] (level 9)
+00:00:00.523161   Format <string>  = "VDI" (cb=4)
+00:00:00.523162   Path   <string>  = "/home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{2a0a0a04-aa0d-4b49-93be-8b91088e22bd}.vdi" (cb=97)
+00:00:00.523162 
+00:00:00.523162 [/Devices/ahci/0/LUN#0/Config/Parent/Parent/Parent/Parent/Parent/] (level 10)
+00:00:00.523164   Format <string>  = "VDI" (cb=4)
+00:00:00.523165   Path   <string>  = "/home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{56413b6d-dbc8-4a5e-b844-d984dcb6a62f}.vdi" (cb=97)
+00:00:00.523165 
+00:00:00.523166 [/Devices/ahci/0/LUN#0/Config/Parent/Parent/Parent/Parent/Parent/Parent/] (level 11)
+00:00:00.523167   Format <string>  = "VDI" (cb=4)
+00:00:00.523168   Path   <string>  = "/home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{462a796f-0267-4ddd-a788-938d9a432112}.vdi" (cb=97)
+00:00:00.523168 
+00:00:00.523169 [/Devices/ahci/0/LUN#0/Config/Parent/Parent/Parent/Parent/Parent/Parent/Parent/] (level 12)
+00:00:00.523170   Format <string>  = "VDI" (cb=4)
+00:00:00.523171   Path   <string>  = "/home/compsci/VirtualBox VMs/fischer_hunter/fischer_hunter.vdi" (cb=63)
+00:00:00.523172 
+00:00:00.523172 [/Devices/ahci/0/LUN#0/Config/Plugins/] (level 6)
+00:00:00.523173 
+00:00:00.523174 [/Devices/ahci/0/LUN#0/Config/Plugins/VDPluginCrypt/] (level 7)
+00:00:00.523175   Path <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VDPluginCrypt.so" (cb=100)
+00:00:00.523176 
+00:00:00.523176 [/Devices/ahci/0/LUN#999/] (level 4)
+00:00:00.523177   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.523178 
+00:00:00.523178 [/Devices/ahci/0/LUN#999/Config/] (level 5)
+00:00:00.523179   DeviceInstance        <string>  = "ahci/0" (cb=7)
+00:00:00.523180   First                 <integer> = 0x0000000000000000 (0)
+00:00:00.523181   Last                  <integer> = 0x0000000000000000 (0)
+00:00:00.523182   pConsole              <integer> = 0x00007f9540001320 (140 279 000 601 376)
+00:00:00.523183   papLeds               <integer> = 0x00007f9540001710 (140 279 000 602 384)
+00:00:00.523184   pmapMediumAttachments <integer> = 0x00007f9540001b30 (140 279 000 603 440)
+00:00:00.523185 
+00:00:00.523186 [/Devices/apic/] (level 2)
+00:00:00.523187 
+00:00:00.523187 [/Devices/apic/0/] (level 3)
+00:00:00.523188   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.523188 
+00:00:00.523189 [/Devices/apic/0/Config/] (level 4)
+00:00:00.523190   IOAPIC  <integer> = 0x0000000000000001 (1)
+00:00:00.523191   Mode    <integer> = 0x0000000000000003 (3)
+00:00:00.523191   NumCPUs <integer> = 0x0000000000000002 (2)
+00:00:00.523192 
+00:00:00.523192 [/Devices/e1000/] (level 2)
+00:00:00.523193 
+00:00:00.523193 [/Devices/e1000/0/] (level 3)
+00:00:00.523194   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.523195   PCIDeviceNo   <integer> = 0x0000000000000003 (3)
+00:00:00.523196   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.523196   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.523197 
+00:00:00.523197 [/Devices/e1000/0/Config/] (level 4)
+00:00:00.523198   AdapterType    <integer> = 0x0000000000000000 (0)
+00:00:00.523199   CableConnected <integer> = 0x0000000000000001 (1)
+00:00:00.523200   LineSpeed      <integer> = 0x0000000000000000 (0)
+00:00:00.523201   MAC            <bytes>   = "08 00 27 04 a4 cb" (cb=6)
+00:00:00.523202 
+00:00:00.523202 [/Devices/e1000/0/LUN#0/] (level 4)
+00:00:00.523203   Driver <string>  = "NAT" (cb=4)
+00:00:00.523204 
+00:00:00.523204 [/Devices/e1000/0/LUN#0/Config/] (level 5)
+00:00:00.523206   AliasMode       <integer> = 0x0000000000000000 (0)
+00:00:00.523206   BootFile        <string>  = "fischer_hunter.pxe" (cb=19)
+00:00:00.523207   DNSProxy        <integer> = 0x0000000000000000 (0)
+00:00:00.523208   Network         <string>  = "10.0.2.0/24" (cb=12)
+00:00:00.523208   PassDomain      <integer> = 0x0000000000000001 (1)
+00:00:00.523209   TFTPPrefix      <string>  = "/home/compsci/.config/VirtualBox/TFTP" (cb=38)
+00:00:00.523210   UseHostResolver <integer> = 0x0000000000000000 (0)
+00:00:00.523211 
+00:00:00.523211 [/Devices/e1000/0/LUN#999/] (level 4)
+00:00:00.523212   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.523213 
+00:00:00.523213 [/Devices/e1000/0/LUN#999/Config/] (level 5)
+00:00:00.523214   First   <integer> = 0x0000000000000000 (0)
+00:00:00.523215   Last    <integer> = 0x0000000000000000 (0)
+00:00:00.523215   papLeds <integer> = 0x00007f95400019f0 (140 279 000 603 120)
+00:00:00.523216 
+00:00:00.523217 [/Devices/i8254/] (level 2)
+00:00:00.523217 
+00:00:00.523218 [/Devices/i8254/0/] (level 3)
+00:00:00.523219 
+00:00:00.523219 [/Devices/i8254/0/Config/] (level 4)
+00:00:00.523220 
+00:00:00.523220 [/Devices/i8259/] (level 2)
+00:00:00.523221 
+00:00:00.523221 [/Devices/i8259/0/] (level 3)
+00:00:00.523222   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.523223 
+00:00:00.523223 [/Devices/i8259/0/Config/] (level 4)
+00:00:00.523224 
+00:00:00.523224 [/Devices/ichac97/] (level 2)
+00:00:00.523225 
+00:00:00.523225 [/Devices/ichac97/0/] (level 3)
+00:00:00.523227   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.523227   PCIDeviceNo   <integer> = 0x0000000000000005 (5)
+00:00:00.523228   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.523229   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.523229 
+00:00:00.523230 [/Devices/ichac97/0/AudioConfig/] (level 4)
+00:00:00.523231 
+00:00:00.523231 [/Devices/ichac97/0/Config/] (level 4)
+00:00:00.523232   Codec <string>  = "AD1980" (cb=7)
+00:00:00.523232 
+00:00:00.523233 [/Devices/ichac97/0/LUN#0/] (level 4)
+00:00:00.523234   Driver <string>  = "AUDIO" (cb=6)
+00:00:00.523234 
+00:00:00.523235 [/Devices/ichac97/0/LUN#0/AttachedDriver/] (level 5)
+00:00:00.523236   Driver <string>  = "ALSAAudio" (cb=10)
+00:00:00.523237 
+00:00:00.523237 [/Devices/ichac97/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:00.523238   StreamName <string>  = "fischer_hunter" (cb=15)
+00:00:00.523239 
+00:00:00.523239 [/Devices/ichac97/0/LUN#0/Config/] (level 5)
+00:00:00.523240   DebugEnabled  <integer> = 0x0000000000000000 (0)
+00:00:00.523241   DebugPathOut  <string>  = "" (cb=1)
+00:00:00.523242   DriverName    <string>  = "ALSAAudio" (cb=10)
+00:00:00.523242   InputEnabled  <integer> = 0x0000000000000000 (0)
+00:00:00.523243   OutputEnabled <integer> = 0x0000000000000001 (1)
+00:00:00.523243 
+00:00:00.523244 [/Devices/ichac97/0/LUN#1/] (level 4)
+00:00:00.523245   Driver <string>  = "AUDIO" (cb=6)
+00:00:00.523245 
+00:00:00.523246 [/Devices/ichac97/0/LUN#1/AttachedDriver/] (level 5)
+00:00:00.523247   Driver <string>  = "AudioVRDE" (cb=10)
+00:00:00.523247 
+00:00:00.523247 [/Devices/ichac97/0/LUN#1/AttachedDriver/Config/] (level 6)
+00:00:00.523249   Object           <integer> = 0x00007f95400052b0 (140 279 000 617 648)
+00:00:00.523250   ObjectVRDPServer <integer> = 0x00007f9540005730 (140 279 000 618 800)
+00:00:00.523251   StreamName       <string>  = "fischer_hunter" (cb=15)
+00:00:00.523252 
+00:00:00.523252 [/Devices/ichac97/0/LUN#1/Config/] (level 5)
+00:00:00.523253   DebugEnabled  <integer> = 0x0000000000000000 (0)
+00:00:00.523254   DebugPathOut  <string>  = "" (cb=1)
+00:00:00.523254   DriverName    <string>  = "AudioVRDE" (cb=10)
+00:00:00.523255   InputEnabled  <integer> = 0x0000000000000000 (0)
+00:00:00.523255   OutputEnabled <integer> = 0x0000000000000001 (1)
+00:00:00.523256 
+00:00:00.523256 [/Devices/ioapic/] (level 2)
+00:00:00.523257 
+00:00:00.523257 [/Devices/ioapic/0/] (level 3)
+00:00:00.523258   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.523259 
+00:00:00.523259 [/Devices/ioapic/0/Config/] (level 4)
+00:00:00.523260   NumCPUs <integer> = 0x0000000000000002 (2)
+00:00:00.523261 
+00:00:00.523261 [/Devices/mc146818/] (level 2)
+00:00:00.523262 
+00:00:00.523262 [/Devices/mc146818/0/] (level 3)
+00:00:00.523263 
+00:00:00.523264 [/Devices/mc146818/0/Config/] (level 4)
+00:00:00.523264   UseUTC <integer> = 0x0000000000000001 (1)
+00:00:00.523265 
+00:00:00.523265 [/Devices/parallel/] (level 2)
+00:00:00.523266 
+00:00:00.523267 [/Devices/pcarch/] (level 2)
+00:00:00.523267 
+00:00:00.523268 [/Devices/pcarch/0/] (level 3)
+00:00:00.523269   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.523269 
+00:00:00.523270 [/Devices/pcarch/0/Config/] (level 4)
+00:00:00.523271 
+00:00:00.523271 [/Devices/pcbios/] (level 2)
+00:00:00.523272 
+00:00:00.523272 [/Devices/pcbios/0/] (level 3)
+00:00:00.523273   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.523274 
+00:00:00.523274 [/Devices/pcbios/0/Config/] (level 4)
+00:00:00.523275   APIC               <integer> = 0x0000000000000001 (1)
+00:00:00.523276   BootDevice0        <string>  = "FLOPPY" (cb=7)
+00:00:00.523277   BootDevice1        <string>  = "DVD" (cb=4)
+00:00:00.523278   BootDevice2        <string>  = "IDE" (cb=4)
+00:00:00.523279   BootDevice3        <string>  = "NONE" (cb=5)
+00:00:00.523279   FloppyDevice       <string>  = "i82078" (cb=7)
+00:00:00.523280   HardDiskDevice     <string>  = "piix3ide" (cb=9)
+00:00:00.523280   IOAPIC             <integer> = 0x0000000000000001 (1)
+00:00:00.523281   LanBootRom         <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/PXE-Intel.rom" (cb=85)
+00:00:00.523282   McfgBase           <integer> = 0x0000000000000000 (0)
+00:00:00.523283   McfgLength         <integer> = 0x0000000000000000 (0)
+00:00:00.523283   NumCPUs            <integer> = 0x0000000000000002 (2)
+00:00:00.523284   PXEDebug           <integer> = 0x0000000000000000 (0)
+00:00:00.523285   SataHardDiskDevice <string>  = "ahci" (cb=5)
+00:00:00.523286   SataLUN1           <integer> = 0x0000000000000000 (0)
+00:00:00.523286   UUID               <bytes>   = "89 ad 42 81 81 4f 18 4c 9c 10 c2 06 39 e6 40 8e" (cb=16)
+00:00:00.523289 
+00:00:00.523289 [/Devices/pcbios/0/Config/NetBoot/] (level 5)
+00:00:00.523290 
+00:00:00.523290 [/Devices/pcbios/0/Config/NetBoot/0/] (level 6)
+00:00:00.523291   NIC           <integer> = 0x0000000000000000 (0)
+00:00:00.523292   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.523293   PCIDeviceNo   <integer> = 0x0000000000000003 (3)
+00:00:00.523294   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.523294 
+00:00:00.523295 [/Devices/pci/] (level 2)
+00:00:00.523295 
+00:00:00.523296 [/Devices/pci/0/] (level 3)
+00:00:00.523297   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.523297 
+00:00:00.523298 [/Devices/pci/0/Config/] (level 4)
+00:00:00.523298   IOAPIC <integer> = 0x0000000000000001 (1)
+00:00:00.523299 
+00:00:00.523299 [/Devices/pcibridge/] (level 2)
+00:00:00.523300 
+00:00:00.523301 [/Devices/pckbd/] (level 2)
+00:00:00.523301 
+00:00:00.523302 [/Devices/pckbd/0/] (level 3)
+00:00:00.523303   Trusted <integer> = 0x0000000000000001 (1)
+00:00:00.523303 
+00:00:00.523304 [/Devices/pckbd/0/Config/] (level 4)
+00:00:00.523304 
+00:00:00.523305 [/Devices/pckbd/0/LUN#0/] (level 4)
+00:00:00.523306   Driver <string>  = "KeyboardQueue" (cb=14)
+00:00:00.523307 
+00:00:00.523307 [/Devices/pckbd/0/LUN#0/AttachedDriver/] (level 5)
+00:00:00.523308   Driver <string>  = "MainKeyboard" (cb=13)
+00:00:00.523309 
+00:00:00.523309 [/Devices/pckbd/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:00.523310   Object <integer> = 0x0000562a68aaa780 (94 740 144 629 632)
+00:00:00.523311 
+00:00:00.523312 [/Devices/pckbd/0/LUN#0/Config/] (level 5)
+00:00:00.523313   QueueSize <integer> = 0x0000000000000040 (64)
+00:00:00.523313 
+00:00:00.523314 [/Devices/pckbd/0/LUN#1/] (level 4)
+00:00:00.523315   Driver <string>  = "MouseQueue" (cb=11)
+00:00:00.523315 
+00:00:00.523316 [/Devices/pckbd/0/LUN#1/AttachedDriver/] (level 5)
+00:00:00.523317   Driver <string>  = "MainMouse" (cb=10)
+00:00:00.523317 
+00:00:00.523317 [/Devices/pckbd/0/LUN#1/AttachedDriver/Config/] (level 6)
+00:00:00.523319   Object <integer> = 0x00007f95400111a0 (140 279 000 666 528)
+00:00:00.523320 
+00:00:00.523320 [/Devices/pckbd/0/LUN#1/Config/] (level 5)
+00:00:00.523321   QueueSize <integer> = 0x0000000000000080 (128)
+00:00:00.523322 
+00:00:00.523322 [/Devices/pcnet/] (level 2)
+00:00:00.523323 
+00:00:00.523323 [/Devices/piix3ide/] (level 2)
+00:00:00.523324 
+00:00:00.523324 [/Devices/piix3ide/0/] (level 3)
+00:00:00.523325   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.523326   PCIDeviceNo   <integer> = 0x0000000000000001 (1)
+00:00:00.523327   PCIFunctionNo <integer> = 0x0000000000000001 (1)
+00:00:00.523327   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.523328 
+00:00:00.523328 [/Devices/piix3ide/0/Config/] (level 4)
+00:00:00.523329   Type <string>  = "PIIX4" (cb=6)
+00:00:00.523330 
+00:00:00.523330 [/Devices/piix3ide/0/LUN#2/] (level 4)
+00:00:00.523332   Driver <string>  = "VD" (cb=3)
+00:00:00.523332 
+00:00:00.523333 [/Devices/piix3ide/0/LUN#2/Config/] (level 5)
+00:00:00.523334   Format    <string>  = "RAW" (cb=4)
+00:00:00.523334   Mountable <integer> = 0x0000000000000001 (1)
+00:00:00.523335   Path      <string>  = "/usr/share/virtualbox/VBoxGuestAdditions.iso" (cb=45)
+00:00:00.523336   ReadOnly  <integer> = 0x0000000000000001 (1)
+00:00:00.523336   Type      <string>  = "DVD" (cb=4)
+00:00:00.523337 
+00:00:00.523337 [/Devices/piix3ide/0/LUN#2/Config/Plugins/] (level 6)
+00:00:00.523339 
+00:00:00.523339 [/Devices/piix3ide/0/LUN#2/Config/Plugins/VDPluginCrypt/] (level 7)
+00:00:00.523340   Path <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VDPluginCrypt.so" (cb=100)
+00:00:00.523341 
+00:00:00.523341 [/Devices/piix3ide/0/LUN#999/] (level 4)
+00:00:00.523342   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.523343 
+00:00:00.523343 [/Devices/piix3ide/0/LUN#999/Config/] (level 5)
+00:00:00.523344   DeviceInstance        <string>  = "piix3ide/0" (cb=11)
+00:00:00.523345   First                 <integer> = 0x0000000000000000 (0)
+00:00:00.523346   Last                  <integer> = 0x0000000000000003 (3)
+00:00:00.523347   pConsole              <integer> = 0x00007f9540001320 (140 279 000 601 376)
+00:00:00.523348   papLeds               <integer> = 0x00007f95400016f0 (140 279 000 602 352)
+00:00:00.523349   pmapMediumAttachments <integer> = 0x00007f9540001b30 (140 279 000 603 440)
+00:00:00.523350 
+00:00:00.523350 [/Devices/serial/] (level 2)
+00:00:00.523351 
+00:00:00.523352 [/Devices/usb-ehci/] (level 2)
+00:00:00.523352 
+00:00:00.523353 [/Devices/usb-ehci/0/] (level 3)
+00:00:00.523354   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.523354   PCIDeviceNo   <integer> = 0x000000000000000b (11)
+00:00:00.523355   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.523356   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.523356 
+00:00:00.523357 [/Devices/usb-ehci/0/Config/] (level 4)
+00:00:00.523358 
+00:00:00.523358 [/Devices/usb-ehci/0/LUN#0/] (level 4)
+00:00:00.523359   Driver <string>  = "VUSBRootHub" (cb=12)
+00:00:00.523359 
+00:00:00.523360 [/Devices/usb-ehci/0/LUN#0/Config/] (level 5)
+00:00:00.523361 
+00:00:00.523361 [/Devices/usb-ehci/0/LUN#999/] (level 4)
+00:00:00.523362   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.523363 
+00:00:00.523363 [/Devices/usb-ehci/0/LUN#999/Config/] (level 5)
+00:00:00.523364   First   <integer> = 0x0000000000000000 (0)
+00:00:00.523365   Last    <integer> = 0x0000000000000000 (0)
+00:00:00.523365   papLeds <integer> = 0x00007f9540001b20 (140 279 000 603 424)
+00:00:00.523366 
+00:00:00.523367 [/Devices/usb-ohci/] (level 2)
+00:00:00.523367 
+00:00:00.523368 [/Devices/usb-ohci/0/] (level 3)
+00:00:00.523369   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.523369   PCIDeviceNo   <integer> = 0x0000000000000006 (6)
+00:00:00.523370   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.523371   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.523371 
+00:00:00.523372 [/Devices/usb-ohci/0/Config/] (level 4)
+00:00:00.523373 
+00:00:00.523373 [/Devices/usb-ohci/0/LUN#0/] (level 4)
+00:00:00.523374   Driver <string>  = "VUSBRootHub" (cb=12)
+00:00:00.523374 
+00:00:00.523375 [/Devices/usb-ohci/0/LUN#0/Config/] (level 5)
+00:00:00.523376 
+00:00:00.523376 [/Devices/usb-ohci/0/LUN#999/] (level 4)
+00:00:00.523377   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.523378 
+00:00:00.523378 [/Devices/usb-ohci/0/LUN#999/Config/] (level 5)
+00:00:00.523379   First   <integer> = 0x0000000000000000 (0)
+00:00:00.523380   Last    <integer> = 0x0000000000000000 (0)
+00:00:00.523380   papLeds <integer> = 0x00007f9540001b18 (140 279 000 603 416)
+00:00:00.523381 
+00:00:00.523382 [/Devices/vga/] (level 2)
+00:00:00.523382 
+00:00:00.523383 [/Devices/vga/0/] (level 3)
+00:00:00.523384   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:00.523384   PCIDeviceNo   <integer> = 0x0000000000000002 (2)
+00:00:00.523385   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:00.523386   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:00.523386 
+00:00:00.523387 [/Devices/vga/0/Config/] (level 4)
+00:00:00.523388   CustomVideoModes <integer> = 0x0000000000000000 (0)
+00:00:00.523389   FadeIn           <integer> = 0x0000000000000001 (1)
+00:00:00.523389   FadeOut          <integer> = 0x0000000000000001 (1)
+00:00:00.523390   HeightReduction  <integer> = 0x0000000000000000 (0)
+00:00:00.523391   LogoFile         <string>  = "" (cb=1)
+00:00:00.523391   LogoTime         <integer> = 0x0000000000000000 (0)
+00:00:00.523392   MonitorCount     <integer> = 0x0000000000000001 (1)
+00:00:00.523393   ShowBootMenu     <integer> = 0x0000000000000002 (2)
+00:00:00.523393   VRamSize         <integer> = 0x0000000008000000 (134 217 728, 128 MB)
+00:00:00.523395 
+00:00:00.523395 [/Devices/vga/0/LUN#0/] (level 4)
+00:00:00.523396   Driver <string>  = "MainDisplay" (cb=12)
+00:00:00.523397 
+00:00:00.523397 [/Devices/vga/0/LUN#0/Config/] (level 5)
+00:00:00.523398   Object <integer> = 0x00007f95400021b0 (140 279 000 605 104)
+00:00:00.523399 
+00:00:00.523400 [/Devices/vga/0/LUN#999/] (level 4)
+00:00:00.523400   Driver <string>  = "MainStatus" (cb=11)
+00:00:00.523401 
+00:00:00.523401 [/Devices/vga/0/LUN#999/Config/] (level 5)
+00:00:00.523402   First   <integer> = 0x0000000000000000 (0)
+00:00:00.523403   Last    <integer> = 0x0000000000000000 (0)
+00:00:00.523404   papLeds <integer> = 0x00007f9540001b28 (140 279 000 603 432)
+00:00:00.523405 
+00:00:00.523405 [/Devices/virtio-net/] (level 2)
+00:00:00.523406 
+00:00:00.523406 [/EM/] (level 1)
+00:00:00.523407   TripleFaultReset <integer> = 0x0000000000000000 (0)
+00:00:00.523408 
+00:00:00.523408 [/GIM/] (level 1)
+00:00:00.523409   Provider <string>  = "KVM" (cb=4)
+00:00:00.523409 
+00:00:00.523410 [/HM/] (level 1)
+00:00:00.523410   64bitEnabled       <integer> = 0x0000000000000001 (1)
+00:00:00.523411   EnableLargePages   <integer> = 0x0000000000000000 (0)
+00:00:00.523412   EnableNestedPaging <integer> = 0x0000000000000001 (1)
+00:00:00.523413   EnableUX           <integer> = 0x0000000000000001 (1)
+00:00:00.523413   EnableVPID         <integer> = 0x0000000000000001 (1)
+00:00:00.523414   Exclusive          <integer> = 0x0000000000000001 (1)
+00:00:00.523415   HMForced           <integer> = 0x0000000000000001 (1)
+00:00:00.523416   IBPBOnVMEntry      <integer> = 0x0000000000000000 (0)
+00:00:00.523416   IBPBOnVMExit       <integer> = 0x0000000000000000 (0)
+00:00:00.523417   SpecCtrlByHost     <integer> = 0x0000000000000000 (0)
+00:00:00.523418 
+00:00:00.523418 [/MM/] (level 1)
+00:00:00.523419   CanUseLargerHeap <integer> = 0x0000000000000000 (0)
+00:00:00.523419 
+00:00:00.523420 [/PDM/] (level 1)
+00:00:00.523420 
+00:00:00.523421 [/PDM/AsyncCompletion/] (level 2)
+00:00:00.523421 
+00:00:00.523422 [/PDM/AsyncCompletion/File/] (level 3)
+00:00:00.523423 
+00:00:00.523423 [/PDM/AsyncCompletion/File/BwGroups/] (level 4)
+00:00:00.523424 
+00:00:00.523424 [/PDM/BlkCache/] (level 2)
+00:00:00.523425   CacheSize <integer> = 0x0000000000500000 (5 242 880, 5 MB)
+00:00:00.523426 
+00:00:00.523427 [/PDM/Devices/] (level 2)
+00:00:00.523427 
+00:00:00.523428 [/PDM/Devices/VBoxEhci/] (level 3)
+00:00:00.523429   Path         <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxEhciR3.so" (cb=97)
+00:00:00.523429   R0SearchPath <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64" (cb=83)
+00:00:00.523430   RCSearchPath <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64" (cb=83)
+00:00:00.523431 
+00:00:00.523431 [/PDM/Devices/VBoxNvme/] (level 3)
+00:00:00.523432   Path         <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxNvmeR3.so" (cb=97)
+00:00:00.523433   R0SearchPath <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64" (cb=83)
+00:00:00.523433   RCSearchPath <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64" (cb=83)
+00:00:00.523434 
+00:00:00.523434 [/PDM/Devices/VBoxPciRaw/] (level 3)
+00:00:00.523435   Path         <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxPciRawR3.so" (cb=99)
+00:00:00.523436   R0SearchPath <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64" (cb=83)
+00:00:00.523436 
+00:00:00.523437 [/PDM/Drivers/] (level 2)
+00:00:00.523437 
+00:00:00.523438 [/PDM/Drivers/DrvHostWebcam/] (level 3)
+00:00:00.523439   Path <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so" (cb=101)
+00:00:00.523439 
+00:00:00.523440 [/PDM/Drivers/VBoxC/] (level 3)
+00:00:00.523440   Path <string>  = "/usr/lib/virtualbox/components/VBoxC" (cb=37)
+00:00:00.523441 
+00:00:00.523441 [/PDM/Drivers/VBoxPciRawDrv/] (level 3)
+00:00:00.523442   Path <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxPciRawDrv.so" (cb=100)
+00:00:00.523443 
+00:00:00.523443 [/PDM/NetworkShaper/] (level 2)
+00:00:00.523444 
+00:00:00.523444 [/PDM/NetworkShaper/BwGroups/] (level 3)
+00:00:00.523445 
+00:00:00.523446 [/PDM/USB/] (level 2)
+00:00:00.523446 
+00:00:00.523447 [/PDM/USB/VBoxUsbCardReader/] (level 3)
+00:00:00.523448   Path <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxUsbCardReaderR3.so" (cb=106)
+00:00:00.523448 
+00:00:00.523449 [/PDM/USB/VBoxUsbWebcam/] (level 3)
+00:00:00.523449   Path <string>  = "/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxUsbWebcamR3.so" (cb=102)
+00:00:00.523450 
+00:00:00.523450 [/TM/] (level 1)
+00:00:00.523451   UTCOffset <integer> = 0x0000000000000000 (0)
+00:00:00.523452 
+00:00:00.523452 [/USB/] (level 1)
+00:00:00.523453 
+00:00:00.523453 [/USB/HidMouse/] (level 2)
+00:00:00.523454 
+00:00:00.523454 [/USB/HidMouse/0/] (level 3)
+00:00:00.523455 
+00:00:00.523455 [/USB/HidMouse/0/Config/] (level 4)
+00:00:00.523456   Mode <string>  = "absolute" (cb=9)
+00:00:00.523457 
+00:00:00.523457 [/USB/HidMouse/0/LUN#0/] (level 4)
+00:00:00.523458   Driver <string>  = "MouseQueue" (cb=11)
+00:00:00.523459 
+00:00:00.523459 [/USB/HidMouse/0/LUN#0/AttachedDriver/] (level 5)
+00:00:00.523460   Driver <string>  = "MainMouse" (cb=10)
+00:00:00.523460 
+00:00:00.523461 [/USB/HidMouse/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:00.523462   Object <integer> = 0x00007f95400111a0 (140 279 000 666 528)
+00:00:00.523463 
+00:00:00.523463 [/USB/HidMouse/0/LUN#0/Config/] (level 5)
+00:00:00.523464   QueueSize <integer> = 0x0000000000000080 (128)
+00:00:00.523465 
+00:00:00.523465 [/USB/USBProxy/] (level 2)
+00:00:00.523466 
+00:00:00.523467 [/USB/USBProxy/GlobalConfig/] (level 3)
+00:00:00.523467 
+00:00:00.523468 ********************* End of CFGM dump **********************
+00:00:00.523477 VM: fHMEnabled=true  (configured) fRecompileUser=false fRecompileSupervisor=false
+00:00:00.523479 VM: fRawRing1Enabled=false CSAM=true  PATM=true 
+00:00:00.524476 HM: HMR3Init: VT-x w/ nested paging and unrestricted guest execution hw support
+00:00:00.524510 MM: cbHyperHeap=0x140000 (1310720)
+00:00:00.525909 CPUM: fXStateHostMask=0x7; initial: 0x7; host XCR0=0x7
+00:00:00.527319 CPUM: Matched host CPU INTEL 0x6/0x3a/0x9 Intel_Core7_IvyBridge with CPU DB entry 'Intel Core i5-3570' (INTEL 0x6/0x3a/0x9 Intel_Core7_IvyBridge)
+00:00:00.527669 CPUM: MXCSR_MASK=0xffff (host: 0xffff)
+00:00:00.527680 CPUM: Microcode revision 0x0000001F
+00:00:00.528484 PGM: HCPhysInterPD=0000000034006000 HCPhysInterPaePDPT=0000000034009000 HCPhysInterPaePML4=000000003400b000
+00:00:00.528492 PGM: apInterPTs={0000000034007000,0000000034008000} apInterPaePTs={00000002098b4000,00000002098b5000} apInterPaePDs={00000002098b8000,00000002098b9000,00000002098ba000,00000002098bb000} pInterPaePDPT64=000000003400a000
+00:00:00.528498 PGM: Host paging mode: AMD64+PGE+NX
+00:00:00.528505 PGM: PGMPool: cMaxPages=2096 (u64MaxPages=2084)
+00:00:00.528508 PGM: pgmR3PoolInit: cMaxPages=0x830 cMaxUsers=0x1060 cMaxPhysExts=0x1060 fCacheEnable=true 
+00:00:00.546937 TM: GIP - u32Mode=3 (Invariant) u32UpdateHz=83 u32UpdateIntervalNS=12000000 enmUseTscDelta=2 (Pratically Zero) fGetGipCpu=0xb cCpus=4
+00:00:00.546960 TM: GIP - u64CpuHz=3 192 741 651 (0xbe4d5f13)  SUPGetCpuHzFromGip => 3 192 741 651
+00:00:00.546966 TM: GIP - CPU: iCpuSet=0x0 idCpu=0x0 idApic=0x0 iGipCpu=0x1 i64TSCDelta=0 enmState=3 u64CpuHz=3192730272(*) cErrors=0
+00:00:00.546969 TM: GIP - CPU: iCpuSet=0x1 idCpu=0x1 idApic=0x2 iGipCpu=0x0 i64TSCDelta=0 enmState=3 u64CpuHz=3192741651(*) cErrors=0
+00:00:00.546973 TM: GIP - CPU: iCpuSet=0x2 idCpu=0x2 idApic=0x4 iGipCpu=0x2 i64TSCDelta=0 enmState=3 u64CpuHz=3192741418(*) cErrors=0
+00:00:00.546976 TM: GIP - CPU: iCpuSet=0x3 idCpu=0x3 idApic=0x6 iGipCpu=0x3 i64TSCDelta=0 enmState=3 u64CpuHz=3192741032(*) cErrors=0
+00:00:00.547025 TM: cTSCTicksPerSecond=3 192 741 651 (0xbe4d5f13) enmTSCMode=1 (VirtTscEmulated)
+00:00:00.547027 TM: TSCTiedToExecution=false TSCNotTiedToHalt=false
+00:00:00.547278 VMM: CoreCode: R3=00007f9554003000 R0=XXXXXXXXXXXXXXXX RC=a0fec000 Phys=000000003406f000 cb=0x1000
+00:00:00.547558 IEM: TargetCpu=CURRENT, Microarch=Intel_Core7_IvyBridge
+00:00:00.547620 GIM: Using provider 'KVM' (Implementation version: 0)
+00:00:00.547626 CPUM: SetGuestCpuIdFeature: Enabled Hypervisor Present bit
+00:00:00.584891 AIOMgr: Default manager type is 'Async'
+00:00:00.584914 AIOMgr: Default file backend is 'NonBuffered'
+00:00:00.585127 BlkCache: Cache successfully initialized. Cache size is 5242880 bytes
+00:00:00.585137 BlkCache: Cache commit interval is 10000 ms
+00:00:00.585141 BlkCache: Cache commit threshold is 2621440 bytes
+00:00:00.594738 PcBios: [SMP] BIOS with 2 CPUs
+00:00:00.595513 PcBios: Using the 386+ BIOS image.
+00:00:00.595866 PcBios: MPS table at 000e1300
+00:00:00.596093 PcBios: Using LAN ROM '/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/PXE-Intel.rom' with a size of 0xc000 bytes
+00:00:00.596456 PcBios: fCheckShutdownStatusForSoftReset=true   fClearShutdownStatusOnHardReset=true 
+00:00:00.601251 SUP: Loaded VBoxDDR0.r0 (/usr/lib/virtualbox/VBoxDDR0.r0) at 0xXXXXXXXXXXXXXXXX - ModuleInit at XXXXXXXXXXXXXXXX and ModuleTerm at XXXXXXXXXXXXXXXX
+00:00:00.601776 CPUM: SetGuestCpuIdFeature: Enabled xAPIC
+00:00:00.601781 CPUM: SetGuestCpuIdFeature: Enabled x2APIC
+00:00:00.602069 IOAPIC: Using implementation 2.0!
+00:00:00.602103 PIT: mode=3 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:00.604012 Shared Folders service loaded
+00:00:00.622056 VGA: Using the 386+ BIOS image.
+00:00:00.626714 VD: VDInit finished with VINF_SUCCESS
+00:00:00.629693 DrvVD: Flushes will be ignored
+00:00:00.629699 DrvVD: Async flushes will be passed to the disk
+00:00:00.631327 AIOMgr: Endpoint for file '/home/compsci/VirtualBox VMs/fischer_hunter/fischer_hunter.vdi' (flags 000c0781) created successfully
+00:00:00.632689 AIOMgr: Endpoint for file '/home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{462a796f-0267-4ddd-a788-938d9a432112}.vdi' (flags 000c0781) created successfully
+00:00:00.632875 AIOMgr: Endpoint for file '/home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{56413b6d-dbc8-4a5e-b844-d984dcb6a62f}.vdi' (flags 000c0781) created successfully
+00:00:00.632875 AIOMgr: Endpoint for file '/home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{2a0a0a04-aa0d-4b49-93be-8b91088e22bd}.vdi' (flags 000c0781) created successfully
+00:00:00.632876 AIOMgr: Endpoint for file '/home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{fc1dd90f-b46a-4812-b6be-91dc9b80fe49}.vdi' (flags 000c0781) created successfully
+00:00:00.632876 AIOMgr: Endpoint for file '/home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{0343b106-aeb5-4405-baf3-eedcaf39ad68}.vdi' (flags 000c0781) created successfully
+00:00:00.637666 AIOMgr: Endpoint for file '/home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{65e0e7a2-f291-416d-94fa-f2c30f350dc1}.vdi' (flags 000c0781) created successfully
+00:00:00.638515 AIOMgr: Endpoint for file '/home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{6a7fe59f-fcac-4e4b-a8e1-6cfdb387662d}.vdi' (flags 000c0723) created successfully
+00:00:00.639418 VD: Opening the disk took 8271435 ns
+00:00:00.639474 AHCI: LUN#0: disk, PCHS=16383/16/63, total number of sectors 62914560
+00:00:00.639610 AHCI#0: Reset the HBA
+00:00:00.639614 VD#0: Cancelling all active requests
+00:00:00.639734 PIIX3 ATA: LUN#0: no unit
+00:00:00.639751 PIIX3 ATA: LUN#1: no unit
+00:00:00.639792 DrvVD: Flushes will be ignored
+00:00:00.639796 DrvVD: Async flushes will be passed to the disk
+00:00:00.639825 VD: Opening the disk took 25101 ns
+00:00:00.639885 PIIX3 ATA: LUN#2: CD/DVD, total number of sectors 28309, passthrough disabled
+00:00:00.639891 PIIX3 ATA: LUN#3: no unit
+00:00:00.639943 PIIX3 ATA: Ctl#1: finished processing RESET
+00:00:00.639975 PIIX3 ATA: Ctl#0: finished processing RESET
+00:00:00.640371 E1000#0 Chip=82540EM LinkUpDelay=3000ms EthernetCRC=on GSO=enabled Itr=disabled ItrRx=enabled TID=disabled R0=enabled GC=enabled
+00:00:00.645556 NAT: Guest address guess set to 10.0.2.15 by initialization
+00:00:00.645652 NAT: resolv.conf: nameserver 127.0.0.53
+00:00:00.645665 NAT: DNS server 127.0.0.53 registration detected, switching to the DNS proxy
+00:00:00.645669 NAT: Adding domain name westada.internal
+00:00:00.645671 NAT: DNS#0: 127.0.0.53
+00:00:00.646675 Audio: Initializing ALSA driver
+00:00:00.687210 Audio: Initializing VRDE driver
+00:00:00.687372 AC97: Reset
+00:00:00.688113 VUSB: Attached 'HidMouse' to port 1 on RootHub#1 (FullSpeed)
+00:00:00.688208 PGM: The CPU physical address width is 36 bits
+00:00:00.688214 PGM: PGMR3InitFinalize: 4 MB PSE mask 0000000fffffffff
+00:00:00.688246 TM: TMR3InitFinalize: fTSCModeSwitchAllowed=true 
+00:00:00.691346 VMM: Enabled thread-context hooks
+00:00:00.691411 HM: fWorldSwitcher=0x0 (fIbpbOnVmExit=0 fIbpbOnVmEntry=0)
+00:00:00.691415 HM: Using VT-x implementation 2.0
+00:00:00.691415 HM: Host CR4                        = 0x1606e0
+00:00:00.691416 HM: Host EFER                       = 0xd01
+00:00:00.691417 HM: MSR_IA32_SMM_MONITOR_CTL        = 0x0
+00:00:00.691428 HM: MSR_IA32_FEATURE_CONTROL        = 0x5
+00:00:00.691428 HM: MSR_IA32_VMX_BASIC_INFO         = 0xda040000000010
+00:00:00.691429 HM:   VMCS id                         = 0x10
+00:00:00.691430 HM:   VMCS size                       = 1024 bytes
+00:00:00.691430 HM:   VMCS physical address limit     = None
+00:00:00.691441 HM:   VMCS memory type                = 0x6
+00:00:00.691442 HM:   Dual-monitor treatment support  = true 
+00:00:00.691442 HM:   OUTS & INS instruction-info     = false
+00:00:00.691443 HM:   Supports true capability MSRs   = false
+00:00:00.691443 HM: Max resume loops                = 8192
+00:00:00.691444 HM: MSR_IA32_VMX_PINBASED_CTLS      = 0x7f00000016
+00:00:00.691445 HM:   EXT_INT_EXIT
+00:00:00.691445 HM:   NMI_EXIT
+00:00:00.691446 HM:   VIRTUAL_NMI
+00:00:00.691446 HM:   PREEMPT_TIMER
+00:00:00.691446 HM:   POSTED_INTR (must be cleared)
+00:00:00.691447 HM: MSR_IA32_VMX_PROCBASED_CTLS     = 0xfff9fffe0401e172
+00:00:00.691448 HM:   INT_WINDOW_EXIT
+00:00:00.691448 HM:   USE_TSC_OFFSETTING
+00:00:00.691448 HM:   HLT_EXIT
+00:00:00.691449 HM:   INVLPG_EXIT
+00:00:00.691449 HM:   MWAIT_EXIT
+00:00:00.691449 HM:   RDPMC_EXIT
+00:00:00.691450 HM:   RDTSC_EXIT
+00:00:00.691450 HM:   CR3_LOAD_EXIT (must be set)
+00:00:00.691450 HM:   CR3_STORE_EXIT (must be set)
+00:00:00.691451 HM:   CR8_LOAD_EXIT
+00:00:00.691451 HM:   CR8_STORE_EXIT
+00:00:00.691451 HM:   USE_TPR_SHADOW
+00:00:00.691452 HM:   NMI_WINDOW_EXIT
+00:00:00.691452 HM:   MOV_DR_EXIT
+00:00:00.691452 HM:   UNCOND_IO_EXIT
+00:00:00.691453 HM:   USE_IO_BITMAPS
+00:00:00.691453 HM:   MONITOR_TRAP_FLAG
+00:00:00.691453 HM:   USE_MSR_BITMAPS
+00:00:00.691454 HM:   MONITOR_EXIT
+00:00:00.691454 HM:   PAUSE_EXIT
+00:00:00.691455 HM:   USE_SECONDARY_EXEC_CTRL
+00:00:00.691455 HM: MSR_IA32_VMX_PROCBASED_CTLS2    = 0x8ff00000000
+00:00:00.691456 HM:   VIRT_APIC
+00:00:00.691456 HM:   EPT
+00:00:00.691457 HM:   DESCRIPTOR_TABLE_EXIT
+00:00:00.691457 HM:   RDTSCP
+00:00:00.691457 HM:   VIRT_X2APIC
+00:00:00.691458 HM:   VPID
+00:00:00.691458 HM:   WBINVD_EXIT
+00:00:00.691458 HM:   UNRESTRICTED_GUEST
+00:00:00.691459 HM:   APIC_REG_VIRT (must be cleared)
+00:00:00.691459 HM:   VIRT_INTR_DELIVERY (must be cleared)
+00:00:00.691460 HM:   PAUSE_LOOP_EXIT (must be cleared)
+00:00:00.691460 HM:   RDRAND_EXIT
+00:00:00.691461 HM:   INVPCID (must be cleared)
+00:00:00.691461 HM:   VMFUNC (must be cleared)
+00:00:00.691461 HM:   VMCS_SHADOWING (must be cleared)
+00:00:00.691462 HM:   ENCLS_EXIT (must be cleared)
+00:00:00.691462 HM:   RDSEED_EXIT (must be cleared)
+00:00:00.691462 HM:   PML (must be cleared)
+00:00:00.691463 HM:   EPT_VE (must be cleared)
+00:00:00.691463 HM:   CONCEAL_FROM_PT (must be cleared)
+00:00:00.691463 HM:   XSAVES_XRSTORS (must be cleared)
+00:00:00.691464 HM:   TSC_SCALING (must be cleared)
+00:00:00.691464 HM: MSR_IA32_VMX_ENTRY_CTLS         = 0xffff000011ff
+00:00:00.691465 HM:   LOAD_DEBUG (must be set)
+00:00:00.691465 HM:   IA32E_MODE_GUEST
+00:00:00.691465 HM:   ENTRY_SMM
+00:00:00.691466 HM:   DEACTIVATE_DUALMON
+00:00:00.691466 HM:   LOAD_GUEST_PERF_MSR
+00:00:00.691466 HM:   LOAD_GUEST_PAT_MSR
+00:00:00.691467 HM:   LOAD_GUEST_EFER_MSR
+00:00:00.691467 HM: MSR_IA32_VMX_EXIT_CTLS          = 0x7fffff00036dff
+00:00:00.691468 HM:   SAVE_DEBUG (must be set)
+00:00:00.691468 HM:   HOST_ADDR_SPACE_SIZE
+00:00:00.691469 HM:   LOAD_PERF_MSR
+00:00:00.691469 HM:   ACK_EXT_INT
+00:00:00.691469 HM:   SAVE_GUEST_PAT_MSR
+00:00:00.691470 HM:   LOAD_HOST_PAT_MSR
+00:00:00.691470 HM:   SAVE_GUEST_EFER_MSR
+00:00:00.691470 HM:   LOAD_HOST_EFER_MSR
+00:00:00.691471 HM:   SAVE_VMX_PREEMPT_TIMER
+00:00:00.691471 HM: MSR_IA32_VMX_EPT_VPID_CAP       = 0xf0106114141
+00:00:00.691472 HM:   RWX_X_ONLY
+00:00:00.691472 HM:   PAGE_WALK_LENGTH_4
+00:00:00.691472 HM:   EMT_UC
+00:00:00.691473 HM:   EMT_WB
+00:00:00.691473 HM:   PDE_2M
+00:00:00.691474 HM:   INVEPT
+00:00:00.691474 HM:   INVEPT_SINGLE_CONTEXT
+00:00:00.691474 HM:   INVEPT_ALL_CONTEXTS
+00:00:00.691475 HM:   INVVPID
+00:00:00.691475 HM:   INVVPID_INDIV_ADDR
+00:00:00.691475 HM:   INVVPID_SINGLE_CONTEXT
+00:00:00.691476 HM:   INVVPID_ALL_CONTEXTS
+00:00:00.691476 HM:   INVVPID_SINGLE_CONTEXT_RETAIN_GLOBALS
+00:00:00.691476 HM: MSR_IA32_VMX_MISC               = 0x100401e5
+00:00:00.691477 HM:   PREEMPT_TSC_BIT                 = 0x5
+00:00:00.691477 HM:   STORE_EFERLMA_VMEXIT            = true 
+00:00:00.691478 HM:   ACTIVITY_STATES                 = 0x7
+00:00:00.691478 HM:   CR3_TARGET                      = 0x4
+00:00:00.691479 HM:   MAX_MSR                         = 512
+00:00:00.691479 HM:   RDMSR_SMBASE_MSR_SMM            = false
+00:00:00.691480 HM:   SMM_MONITOR_CTL_B2              = true 
+00:00:00.691480 HM:   VMWRITE_VMEXIT_INFO             = false
+00:00:00.691481 HM:   MSEG_ID                         = 0x0
+00:00:00.691481 HM: MSR_IA32_VMX_CR0_FIXED0         = 0x80000021
+00:00:00.691482 HM: MSR_IA32_VMX_CR0_FIXED1         = 0xffffffff
+00:00:00.691482 HM: MSR_IA32_VMX_CR4_FIXED0         = 0x2000
+00:00:00.691483 HM: MSR_IA32_VMX_CR4_FIXED1         = 0x1767ff
+00:00:00.691483 HM: MSR_IA32_VMX_VMCS_ENUM          = 0x2a
+00:00:00.691484 HM:   HIGHEST_INDEX                   = 0x15
+00:00:00.691484 HM: APIC-access page physaddr       = 0x0000000034083000
+00:00:00.691485 HM: VCPU  0: MSR bitmap physaddr    = 0x0000000034085000
+00:00:00.691486 HM: VCPU  0: VMCS physaddr          = 0x0000000034084000
+00:00:00.691487 HM: VCPU  1: MSR bitmap physaddr    = 0x0000000034089000
+00:00:00.691487 HM: VCPU  1: VMCS physaddr          = 0x0000000034088000
+00:00:00.691488 HM: Guest support: 32-bit and 64-bit
+00:00:00.691491 HM: Supports VMCS EFER fields       = true 
+00:00:00.691491 HM: Enabled VMX
+00:00:00.691494 CPUM: SetGuestCpuIdFeature: Enabled SYSENTER/EXIT
+00:00:00.691494 CPUM: SetGuestCpuIdFeature: Enabled PAE
+00:00:00.691495 CPUM: SetGuestCpuIdFeature: Enabled LONG MODE
+00:00:00.691495 CPUM: SetGuestCpuIdFeature: Enabled SYSCALL/RET
+00:00:00.691496 CPUM: SetGuestCpuIdFeature: Enabled LAHF/SAHF
+00:00:00.691496 CPUM: SetGuestCpuIdFeature: Enabled NX
+00:00:00.691496 HM: Enabled nested paging
+00:00:00.691497 HM:   EPT flush type                = VMXFLUSHEPT_SINGLE_CONTEXT
+00:00:00.691497 HM: Enabled unrestricted guest execution
+00:00:00.691498 HM: Enabled VPID
+00:00:00.691498 HM:   VPID flush type               = VMXFLUSHVPID_SINGLE_CONTEXT
+00:00:00.691499 HM: Enabled VMX-preemption timer (cPreemptTimerShift=5)
+00:00:00.691499 HM: VT-x/AMD-V init method: GLOBAL
+00:00:00.691500 VMM: fUsePeriodicPreemptionTimers=false
+00:00:00.691993 CPUM: Logical host processors: 4 present, 4 max, 4 online, online mask: 000000000000000f
+00:00:00.692046 CPUM: Physical host cores: 4
+00:00:00.692046 ************************* CPUID dump ************************
+00:00:00.692057          Raw Standard CPUID Leaves
+00:00:00.692057      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:00.692058 Gst: 00000000/0000  0000000d 756e6547 6c65746e 49656e69
+00:00:00.692059 Hst:                0000000d 756e6547 6c65746e 49656e69
+00:00:00.692061 Gst: 00000001/0000  000306a9 00020800 d6ba2203 178bfbff
+00:00:00.692062 Hst:                000306a9 04100800 7fbae3ff bfebfbff
+00:00:00.692063 Gst: 00000002/0000  76035a01 00f0b0ff 00000000 00ca0000
+00:00:00.692064 Hst:                76035a01 00f0b0ff 00000000 00ca0000
+00:00:00.692065 Gst: 00000003/0000  00000000 00000000 00000000 00000000
+00:00:00.692066 Hst:                00000000 00000000 00000000 00000000
+00:00:00.692067 Gst: 00000004/0000  04000121 01c0003f 0000003f 00000000
+00:00:00.692068 Hst:                1c004121 01c0003f 0000003f 00000000
+00:00:00.692068 Gst: 00000004/0001  04000122 01c0003f 0000003f 00000000
+00:00:00.692069 Hst:                1c004122 01c0003f 0000003f 00000000
+00:00:00.692070 Gst: 00000004/0002  04000143 01c0003f 000001ff 00000000
+00:00:00.692071 Hst:                1c004143 01c0003f 000001ff 00000000
+00:00:00.692072 Gst: 00000004/0003  04000163 02c0003f 00001fff 00000006
+00:00:00.692073 Hst:                1c03c163 02c0003f 00001fff 00000006
+00:00:00.692074 Gst: 00000004/0004  04000000 00000000 00000000 00000000
+00:00:00.692075 Hst:                00000000 00000000 00000000 00000000
+00:00:00.692075 Gst: 00000005/0000  00000000 00000000 00000000 00000000
+00:00:00.692076 Hst:                00000040 00000040 00000003 00001120
+00:00:00.692077 Gst: 00000006/0000  00000000 00000000 00000000 00000000
+00:00:00.692078 Hst:                00000077 00000002 00000009 00000000
+00:00:00.692078 Gst: 00000007/0000  00000000 00000001 00000000 00000000
+00:00:00.692079 Hst:                00000000 00000281 00000000 0c000000
+00:00:00.692080 Gst: 00000007/0001  00000000 00000000 00000000 00000000
+00:00:00.692081 Hst:                00000000 00000000 00000000 00000000
+00:00:00.692081 Gst: 00000008/0000  00000000 00000000 00000000 00000000
+00:00:00.692082 Hst:                00000000 00000000 00000000 00000000
+00:00:00.692083 Gst: 00000009/0000  00000000 00000000 00000000 00000000
+00:00:00.692083 Hst:                00000000 00000000 00000000 00000000
+00:00:00.692084 Gst: 0000000a/0000  00000000 00000000 00000000 00000000
+00:00:00.692085 Hst:                07300803 00000000 00000000 00000603
+00:00:00.692085 Gst: 0000000b/0000  00000000 00000001 00000100 00000000
+00:00:00.692086 Hst:                00000001 00000001 00000100 00000004
+00:00:00.692087 Gst: 0000000b/0001  00000001 00000002 00000201 00000000
+00:00:00.692087 Hst:                00000004 00000004 00000201 00000004
+00:00:00.692088 Gst: 0000000b/0002  00000000 00000000 00000002 00000000
+00:00:00.692089 Hst:                00000000 00000000 00000002 00000004
+00:00:00.692089 Gst: 0000000c/0000  00000000 00000000 00000000 00000000
+00:00:00.692090 Hst:                00000000 00000000 00000000 00000000
+00:00:00.692091 Gst: 0000000d/0000  00000007 00000340 00000340 00000000
+00:00:00.692092 Hst:                00000007 00000340 00000340 00000000
+00:00:00.692092 Gst: 0000000d/0001  00000000 00000000 00000000 00000000
+00:00:00.692093 Hst:                00000001 00000000 00000000 00000000
+00:00:00.692094 Gst: 0000000d/0002  00000100 00000240 00000000 00000000
+00:00:00.692094 Hst:                00000100 00000240 00000000 00000000
+00:00:00.692095 Gst: 0000000d/0003  00000000 00000000 00000000 00000000
+00:00:00.692096 Hst:                00000000 00000000 00000000 00000000
+00:00:00.692108                                Name: GenuineIntel
+00:00:00.692109                            Supports: 0x00000000-0x0000000d
+00:00:00.692110                              Family:  6 	Extended: 0 	Effective: 6
+00:00:00.692111                               Model: 10 	Extended: 3 	Effective: 58
+00:00:00.692112                            Stepping: 9
+00:00:00.692113                                Type: 0 (primary)
+00:00:00.692114                             APIC ID: 0x00
+00:00:00.692115                        Logical CPUs: 2
+00:00:00.692115                        CLFLUSH Size: 8
+00:00:00.692116                            Brand ID: 0x00
+00:00:00.692117 Features
+00:00:00.692117   Mnemonic - Description                                  = guest (host)
+00:00:00.692118   FPU - x87 FPU on Chip                                   = 1 (1)
+00:00:00.692119   VME - Virtual 8086 Mode Enhancements                    = 1 (1)
+00:00:00.692120   DE - Debugging extensions                               = 1 (1)
+00:00:00.692121   PSE - Page Size Extension                               = 1 (1)
+00:00:00.692122   TSC - Time Stamp Counter                                = 1 (1)
+00:00:00.692123   MSR - Model Specific Registers                          = 1 (1)
+00:00:00.692124   PAE - Physical Address Extension                        = 1 (1)
+00:00:00.692125   MCE - Machine Check Exception                           = 1 (1)
+00:00:00.692126   CX8 - CMPXCHG8B instruction                             = 1 (1)
+00:00:00.692127   APIC - APIC On-Chip                                     = 1 (1)
+00:00:00.692128   SEP - SYSENTER and SYSEXIT Present                      = 1 (1)
+00:00:00.692129   MTRR - Memory Type Range Registers                      = 1 (1)
+00:00:00.692130   PGE - PTE Global Bit                                    = 1 (1)
+00:00:00.692131   MCA - Machine Check Architecture                        = 1 (1)
+00:00:00.692132   CMOV - Conditional Move instructions                    = 1 (1)
+00:00:00.692132   PAT - Page Attribute Table                              = 1 (1)
+00:00:00.692133   PSE-36 - 36-bit Page Size Extension                     = 1 (1)
+00:00:00.692134   PSN - Processor Serial Number                           = 0 (0)
+00:00:00.692135   CLFSH - CLFLUSH instruction                             = 1 (1)
+00:00:00.692136   DS - Debug Store                                        = 0 (1)
+00:00:00.692137   ACPI - Thermal Mon. & Soft. Clock Ctrl.                 = 0 (1)
+00:00:00.692138   MMX - Intel MMX Technology                              = 1 (1)
+00:00:00.692139   FXSR - FXSAVE and FXRSTOR instructions                  = 1 (1)
+00:00:00.692140   SSE - SSE support                                       = 1 (1)
+00:00:00.692141   SSE2 - SSE2 support                                     = 1 (1)
+00:00:00.692142   SS - Self Snoop                                         = 0 (1)
+00:00:00.692143   HTT - Hyper-Threading Technology                        = 1 (1)
+00:00:00.692144   TM - Therm. Monitor                                     = 0 (1)
+00:00:00.692145   PBE - Pending Break Enabled                             = 0 (1)
+00:00:00.692146   SSE3 - SSE3 support                                     = 1 (1)
+00:00:00.692147   PCLMUL - PCLMULQDQ support (for AES-GCM)                = 1 (1)
+00:00:00.692147   DTES64 - DS Area 64-bit Layout                          = 0 (1)
+00:00:00.692148   MONITOR - MONITOR/MWAIT instructions                    = 0 (1)
+00:00:00.692149   CPL-DS - CPL Qualified Debug Store                      = 0 (1)
+00:00:00.692150   VMX - Virtual Machine Extensions                        = 0 (1)
+00:00:00.692151   SMX - Safer Mode Extensions                             = 0 (1)
+00:00:00.692152   EST - Enhanced SpeedStep Technology                     = 0 (1)
+00:00:00.692153   TM2 - Terminal Monitor 2                                = 0 (1)
+00:00:00.692153   SSSE3 - Supplemental Streaming SIMD Extensions 3        = 1 (1)
+00:00:00.692154   CNTX-ID - L1 Context ID                                 = 0 (0)
+00:00:00.692155   SDBG - Silicon Debug interface                          = 0 (0)
+00:00:00.692156   FMA - Fused Multiply Add extensions                     = 0 (0)
+00:00:00.692157   CX16 - CMPXCHG16B instruction                           = 1 (1)
+00:00:00.692158   TPRUPDATE - xTPR Update Control                         = 0 (1)
+00:00:00.692159   PDCM - Perf/Debug Capability MSR                        = 0 (1)
+00:00:00.692160   PCID - Process Context Identifiers                      = 1 (1)
+00:00:00.692160   DCA - Direct Cache Access                               = 0 (0)
+00:00:00.692161   SSE4_1 - SSE4_1 support                                 = 1 (1)
+00:00:00.692162   SSE4_2 - SSE4_2 support                                 = 1 (1)
+00:00:00.692163   X2APIC - x2APIC support                                 = 1 (1)
+00:00:00.692164   MOVBE - MOVBE instruction                               = 0 (0)
+00:00:00.692165   POPCNT - POPCNT instruction                             = 1 (1)
+00:00:00.692166   TSCDEADL - Time Stamp Counter Deadline                  = 0 (1)
+00:00:00.692167   AES - AES instructions                                  = 1 (1)
+00:00:00.692168   XSAVE - XSAVE instruction                               = 1 (1)
+00:00:00.692169   OSXSAVE - OSXSAVE instruction                           = 0 (1)
+00:00:00.692170   AVX - AVX support                                       = 1 (1)
+00:00:00.692171   F16C - 16-bit floating point conversion instructions    = 0 (1)
+00:00:00.692171   RDRAND - RDRAND instruction                             = 1 (1)
+00:00:00.692172   HVP - Hypervisor Present (we're a guest)                = 1 (0)
+00:00:00.692173 Structured Extended Feature Flags Enumeration (leaf 7):
+00:00:00.692174   Mnemonic - Description                                  = guest (host)
+00:00:00.692174   FSGSBASE - RDFSBASE/RDGSBASE/WRFSBASE/WRGSBASE instr.   = 1 (1)
+00:00:00.692175   TSCADJUST - Supports MSR_IA32_TSC_ADJUST                = 0 (0)
+00:00:00.692176   SGX - Supports Software Guard Extensions                = 0 (0)
+00:00:00.692176   BMI1 - Advanced Bit Manipulation extension 1            = 0 (0)
+00:00:00.692177   HLE - Hardware Lock Elision                             = 0 (0)
+00:00:00.692178   AVX2 - Advanced Vector Extensions 2                     = 0 (0)
+00:00:00.692179   FDP_EXCPTN_ONLY - FPU DP only updated on exceptions     = 0 (0)
+00:00:00.692180   SMEP - Supervisor Mode Execution Prevention             = 0 (1)
+00:00:00.692180   BMI2 - Advanced Bit Manipulation extension 2            = 0 (0)
+00:00:00.692181   ERMS - Enhanced REP MOVSB/STOSB instructions            = 0 (1)
+00:00:00.692182   INVPCID - INVPCID instruction                           = 0 (0)
+00:00:00.692183   RTM - Restricted Transactional Memory                   = 0 (0)
+00:00:00.692183   PQM - Platform Quality of Service Monitoring            = 0 (0)
+00:00:00.692184   DEPFPU_CS_DS - Deprecates FPU CS, FPU DS values if set  = 0 (0)
+00:00:00.692185   MPE - Intel Memory Protection Extensions                = 0 (0)
+00:00:00.692186   PQE - Platform Quality of Service Enforcement           = 0 (0)
+00:00:00.692186   AVX512F - AVX512 Foundation instructions                = 0 (0)
+00:00:00.692187   RDSEED - RDSEED instruction                             = 0 (0)
+00:00:00.692188   ADX - ADCX/ADOX instructions                            = 0 (0)
+00:00:00.692189   SMAP - Supervisor Mode Access Prevention                = 0 (0)
+00:00:00.692190   CLFLUSHOPT - CLFLUSHOPT (Cache Line Flush) instruction  = 0 (0)
+00:00:00.692190   INTEL_PT - Intel Processor Trace                        = 0 (0)
+00:00:00.692191   AVX512PF - AVX512 Prefetch instructions                 = 0 (0)
+00:00:00.692192   AVX512ER - AVX512 Exponential & Reciprocal instructions = 0 (0)
+00:00:00.692193   AVX512CD - AVX512 Conflict Detection instructions       = 0 (0)
+00:00:00.692193   SHA - Secure Hash Algorithm extensions                  = 0 (0)
+00:00:00.692194   PREFETCHWT1 - PREFETCHWT1 instruction                   = 0 (0)
+00:00:00.692195   UMIP - User mode insturction prevention                 = 0 (0)
+00:00:00.692196   PKU - Protection Key for Usermode pages                 = 0 (0)
+00:00:00.692197   OSPKE - CR4.PKU mirror                                  = 0 (0)
+00:00:00.692198   MAWAU - Value used by BNDLDX & BNDSTX                   = 0x0 (0x0)
+00:00:00.692199   RDPID - Read processor ID support                       = 0 (0)
+00:00:00.692200   SGX_LC - Supports SGX Launch Configuration              = 0 (0)
+00:00:00.692200   IBRS_IBPB - IA32_SPEC_CTRL.IBRS and IA32_PRED_CMD.IBPB  = 0 (1)
+00:00:00.692201   STIBP - Supports IA32_SPEC_CTRL.STIBP                   = 0 (1)
+00:00:00.692202   ARCHCAP - Supports IA32_ARCH_CAP                        = 0 (0)
+00:00:00.692203 Processor Extended State Enumeration (leaf 0xd):
+00:00:00.692204    XSAVE area cur/max size by XCR0, guest: 0x340/0x340
+00:00:00.692204     XSAVE area cur/max size by XCR0, host: 0x340/0x340
+00:00:00.692205                    Valid XCR0 bits, guest: 0x00000000`00000007 ( x87 SSE YMM_Hi128 )
+00:00:00.692207                     Valid XCR0 bits, host: 0x00000000`00000007 ( x87 SSE YMM_Hi128 )
+00:00:00.692209                     XSAVE features, guest:
+00:00:00.692209                      XSAVE features, host: XSAVEOPT
+00:00:00.692210       XSAVE area cur size XCR0|XSS, guest: 0x0
+00:00:00.692211        XSAVE area cur size XCR0|XSS, host: 0x0
+00:00:00.692211                Valid IA32_XSS bits, guest: 0x00000000`00000000
+00:00:00.692212                 Valid IA32_XSS bits, host: 0x00000000`00000000
+00:00:00.692213   State #2, guest: off=0x0240, cb=0x0100 IA32_XSS-bit -- YMM_Hi128
+00:00:00.692214   State #2, host:  off=0x0240, cb=0x0100 IA32_XSS-bit -- YMM_Hi128
+00:00:00.692221          Raw Hypervisor CPUID Leaves
+00:00:00.692222      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:00.692222 Gst: 40000000/0000  40000001 4b4d564b 564b4d56 0000004d
+00:00:00.692223 Hst:                00000007 00000340 00000340 00000000
+00:00:00.692224 Gst: 40000001/0000  01000089 00000000 00000000 00000000
+00:00:00.692225 Hst:                00000007 00000340 00000340 00000000
+00:00:00.692226          Raw Extended CPUID Leaves
+00:00:00.692226      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:00.692227 Gst: 80000000/0000  80000008 00000000 00000000 00000000
+00:00:00.692228 Hst:                80000008 00000000 00000000 00000000
+00:00:00.692229 Gst: 80000001/0000  00000000 00000000 00000001 28100800
+00:00:00.692230 Hst:                00000000 00000000 00000001 28100800
+00:00:00.692231 Gst: 80000002/0000  20202020 20202020 65746e49 2952286c
+00:00:00.692232 Hst:                20202020 20202020 65746e49 2952286c
+00:00:00.692233 Gst: 80000003/0000  726f4320 4d542865 35692029 3734332d
+00:00:00.692234 Hst:                726f4320 4d542865 35692029 3734332d
+00:00:00.692236 Gst: 80000004/0000  50432030 20402055 30322e33 007a4847
+00:00:00.692237 Hst:                50432030 20402055 30322e33 007a4847
+00:00:00.692238 Gst: 80000005/0000  00000000 00000000 00000000 00000000
+00:00:00.692239 Hst:                00000000 00000000 00000000 00000000
+00:00:00.692239 Gst: 80000006/0000  00000000 00000000 01006040 00000000
+00:00:00.692240 Hst:                00000000 00000000 01006040 00000000
+00:00:00.692241 Gst: 80000007/0000  00000000 00000000 00000000 00000100
+00:00:00.692242 Hst:                00000000 00000000 00000000 00000100
+00:00:00.692243 Gst: 80000008/0000  00003024 00000000 00000000 00000000
+00:00:00.692243 Hst:                00003024 00000000 00000000 00000000
+00:00:00.692244 Ext Name:                        
+00:00:00.692245 Ext Supports:                    0x80000000-0x80000008
+00:00:00.692245 Family:                          0  	Extended: 0 	Effective: 0
+00:00:00.692246 Model:                           0  	Extended: 0 	Effective: 0
+00:00:00.692246 Stepping:                        0
+00:00:00.692247 Brand ID:                        0x000
+00:00:00.692247 Ext Features
+00:00:00.692248   Mnemonic - Description                                  = guest (host)
+00:00:00.692248   FPU - x87 FPU on Chip                                   = 0 (0)
+00:00:00.692249   VME - Virtual 8086 Mode Enhancements                    = 0 (0)
+00:00:00.692250   DE - Debugging extensions                               = 0 (0)
+00:00:00.692251   PSE - Page Size Extension                               = 0 (0)
+00:00:00.692252   TSC - Time Stamp Counter                                = 0 (0)
+00:00:00.692253   MSR - K86 Model Specific Registers                      = 0 (0)
+00:00:00.692254   PAE - Physical Address Extension                        = 0 (0)
+00:00:00.692255   MCE - Machine Check Exception                           = 0 (0)
+00:00:00.692256   CX8 - CMPXCHG8B instruction                             = 0 (0)
+00:00:00.692257   APIC - APIC On-Chip                                     = 0 (0)
+00:00:00.692258   SEP - SYSCALL/SYSRET                                    = 1 (1)
+00:00:00.692259   MTRR - Memory Type Range Registers                      = 0 (0)
+00:00:00.692260   PGE - PTE Global Bit                                    = 0 (0)
+00:00:00.692260   MCA - Machine Check Architecture                        = 0 (0)
+00:00:00.692261   CMOV - Conditional Move instructions                    = 0 (0)
+00:00:00.692262   PAT - Page Attribute Table                              = 0 (0)
+00:00:00.692263   PSE-36 - 36-bit Page Size Extension                     = 0 (0)
+00:00:00.692264   NX - No-Execute/Execute-Disable                         = 1 (1)
+00:00:00.692265   AXMMX - AMD Extensions to MMX instructions              = 0 (0)
+00:00:00.692266   MMX - Intel MMX Technology                              = 0 (0)
+00:00:00.692266   FXSR - FXSAVE and FXRSTOR Instructions                  = 0 (0)
+00:00:00.692267   FFXSR - AMD fast FXSAVE and FXRSTOR instructions        = 0 (0)
+00:00:00.692268   Page1GB - 1 GB large page                               = 0 (0)
+00:00:00.692269   RDTSCP - RDTSCP instruction                             = 1 (1)
+00:00:00.692270   LM - AMD64 Long Mode                                    = 1 (1)
+00:00:00.692271   3DNOWEXT - AMD Extensions to 3DNow                      = 0 (0)
+00:00:00.692272   3DNOW - AMD 3DNow                                       = 0 (0)
+00:00:00.692273   LahfSahf - LAHF/SAHF support in 64-bit mode             = 1 (1)
+00:00:00.692274   CmpLegacy - Core multi-processing legacy mode           = 0 (0)
+00:00:00.692274   SVM - AMD Secure Virtual Machine extensions             = 0 (0)
+00:00:00.692275   EXTAPIC - AMD Extended APIC registers                   = 0 (0)
+00:00:00.692276   CR8L - AMD LOCK MOV CR0 means MOV CR8                   = 0 (0)
+00:00:00.692277   ABM - AMD Advanced Bit Manipulation                     = 0 (0)
+00:00:00.692277   SSE4A - SSE4A instructions                              = 0 (0)
+00:00:00.692278   MISALIGNSSE - AMD Misaligned SSE mode                   = 0 (0)
+00:00:00.692279   3DNOWPRF - AMD PREFETCH and PREFETCHW instructions      = 0 (0)
+00:00:00.692280   OSVW - AMD OS Visible Workaround                        = 0 (0)
+00:00:00.692281   IBS - Instruct Based Sampling                           = 0 (0)
+00:00:00.692282   XOP - Extended Operation support                        = 0 (0)
+00:00:00.692282   SKINIT - SKINIT, STGI, and DEV support                  = 0 (0)
+00:00:00.692283   WDT - AMD Watchdog Timer support                        = 0 (0)
+00:00:00.692284   LWP - Lightweight Profiling support                     = 0 (0)
+00:00:00.692285   FMA4 - Four operand FMA instruction support             = 0 (0)
+00:00:00.692286   NodeId - NodeId in MSR C001_100C                        = 0 (0)
+00:00:00.692287   TBM - Trailing Bit Manipulation instructions            = 0 (0)
+00:00:00.692287   TOPOEXT - Topology Extensions                           = 0 (0)
+00:00:00.692288 Full Name:                       "        Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz"
+00:00:00.692289 TLB 2/4M Instr/Uni:              res0     0 entries
+00:00:00.692289 TLB 2/4M Data:                   res0     0 entries
+00:00:00.692290 TLB 4K Instr/Uni:                res0     0 entries
+00:00:00.692290 TLB 4K Data:                     res0     0 entries
+00:00:00.692291 L1 Instr Cache Line Size:        0 bytes
+00:00:00.692291 L1 Instr Cache Lines Per Tag:    0
+00:00:00.692292 L1 Instr Cache Associativity:    res0  
+00:00:00.692292 L1 Instr Cache Size:             0 KB
+00:00:00.692292 L1 Data Cache Line Size:         0 bytes
+00:00:00.692293 L1 Data Cache Lines Per Tag:     0
+00:00:00.692293 L1 Data Cache Associativity:     res0  
+00:00:00.692294 L1 Data Cache Size:              0 KB
+00:00:00.692294 L2 TLB 2/4M Instr/Uni:           off       0 entries
+00:00:00.692295 L2 TLB 2/4M Data:                off       0 entries
+00:00:00.692295 L2 TLB 4K Instr/Uni:             off       0 entries
+00:00:00.692296 L2 TLB 4K Data:                  off       0 entries
+00:00:00.692296 L2 Cache Line Size:              0 bytes
+00:00:00.692296 L2 Cache Lines Per Tag:          0
+00:00:00.692297 L2 Cache Associativity:          off   
+00:00:00.692297 L2 Cache Size:                   0 KB
+00:00:00.692298 APM Features:                    TscInvariant
+00:00:00.692298 Host Invariant-TSC support:      true 
+00:00:00.692299 Physical Address Width:          36 bits
+00:00:00.692299 Virtual Address Width:           48 bits
+00:00:00.692300 Guest Physical Address Width:    0 bits
+00:00:00.692300 Physical Core Count:             1
+00:00:00.692302 
+00:00:00.692302 ******************** End of CPUID dump **********************
+00:00:00.695060 PcBios: SATA LUN#0 LCHS=1024/255/63
+00:00:00.695076 APIC: fPostedIntrsEnabled=false fVirtApicRegsEnabled=false fSupportsTscDeadline=false
+00:00:00.695081 TMR3UtcNow: nsNow=1 538 575 641 508 253 000 nsPrev=0 -> cNsDelta=1 538 575 641 508 253 000 (offLag=0 offVirtualSync=0 offVirtualSyncGivenUp=0, NowAgain=1 538 575 641 508 253 000)
+00:00:00.695089 VMEmt: Halt method global1 (5)
+00:00:00.695140 VMEmt: HaltedGlobal1 config: cNsSpinBlockThresholdCfg=2000
+00:00:00.695161 Changing the VM state from 'CREATING' to 'CREATED'
+00:00:00.697719 Changing the VM state from 'CREATED' to 'POWERING_ON'
+00:00:00.697774 AIOMgr: Endpoints without assigned bandwidth groups:
+00:00:00.697781 AIOMgr:     /home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{6a7fe59f-fcac-4e4b-a8e1-6cfdb387662d}.vdi
+00:00:00.697784 AIOMgr:     /home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{65e0e7a2-f291-416d-94fa-f2c30f350dc1}.vdi
+00:00:00.697793 AIOMgr:     /home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{0343b106-aeb5-4405-baf3-eedcaf39ad68}.vdi
+00:00:00.697796 AIOMgr:     /home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{fc1dd90f-b46a-4812-b6be-91dc9b80fe49}.vdi
+00:00:00.697798 AIOMgr:     /home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{2a0a0a04-aa0d-4b49-93be-8b91088e22bd}.vdi
+00:00:00.697800 AIOMgr:     /home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{56413b6d-dbc8-4a5e-b844-d984dcb6a62f}.vdi
+00:00:00.697803 AIOMgr:     /home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{462a796f-0267-4ddd-a788-938d9a432112}.vdi
+00:00:00.697805 AIOMgr:     /home/compsci/VirtualBox VMs/fischer_hunter/fischer_hunter.vdi
+00:00:00.697887 Changing the VM state from 'POWERING_ON' to 'RUNNING'
+00:00:00.697893 Console: Machine state changed to 'Running'
+00:00:00.700985 VMMDev: Guest Log: BIOS: VirtualBox 5.2.16
+00:00:00.701062 PCI: setting up resources and interrupts
+00:00:00.702804 OpenGL: Set 3D content scale factor to (10000, 10000), multiplier 10000 (rc=VINF_SUCCESS)
+00:00:00.702832 OpenGL: Set OpenGL scale policy on HiDPI displays (fUnscaledHiDPI=0)
+00:00:00.703705 SUP: Loaded VBoxEhciR0.r0 (/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxEhciR0.r0) at 0xXXXXXXXXXXXXXXXX - ModuleInit at XXXXXXXXXXXXXXXX and ModuleTerm at XXXXXXXXXXXXXXXX
+00:00:00.703794 PIT: mode=2 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:00.725571 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=720 h=400 bpp=0 cbLine=0x0 flags=0x0
+00:00:00.725673 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=720x400, Sending to async-handler
+00:00:00.725781 VMMDev: Guest Log: CPUID EDX: 0x178bfbff
+00:00:00.725826 PIIX3 ATA: Ctl#1: RESET, DevSel=0 AIOIf=0 CmdIf0=0x00 (-1 usec ago) CmdIf1=0x00 (-1 usec ago)
+00:00:00.725867 PIIX3 ATA: Ctl#1: finished processing RESET
+00:00:00.731592 AHCI#0: Reset the HBA
+00:00:00.731599 VD#0: Cancelling all active requests
+00:00:00.731632 AHCI#0: Port 0 reset
+00:00:00.731674 VD#0: Cancelling all active requests
+00:00:00.732046 VMMDev: Guest Log: BIOS: AHCI 0-P#0: PCHS=16383/16/63 LCHS=1024/255/63 0x0000000003c00000 sectors
+00:00:00.732749 PIT: mode=2 count=0x48d3 (18643) - 64.00 Hz (ch=0)
+00:00:00.747218 Display::handleDisplayResize: uScreenId=0 pvVRAM=00007f94d4000000 w=640 h=480 bpp=32 cbLine=0xA00 flags=0x0
+00:00:00.747267 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x480, Sending to async-handler
+00:00:01.198577 GUI: UIMachineViewNormal::resendSizeHint: Restoring guest size-hint for screen 0 to 1920x1100
+00:00:01.198635 VMMDev: SetVideoModeHint: Got a video mode hint (1920x1100x32)@(0x0),(1;0) at 0
+00:00:01.198674 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=720x400
+00:00:01.198683 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=720x400
+00:00:01.198690 GUI: UIFrameBufferPrivate::performResize: Size=720x400, Directly using source bitmap content
+00:00:01.199111 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x480
+00:00:01.199131 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x480
+00:00:01.201656 GUI: 2D video acceleration is disabled
+00:00:01.201678 GUI: HID LEDs sync is not supported on this platform
+00:00:01.229133 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:03.208998 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=720 h=400 bpp=0 cbLine=0x0 flags=0x0
+00:00:03.209071 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=720x400, Sending to async-handler
+00:00:03.209126 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=720x400
+00:00:03.209139 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=720x400
+00:00:03.209151 GUI: UIFrameBufferPrivate::performResize: Size=720x400, Directly using source bitmap content
+00:00:03.212780 PIT: mode=2 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:03.213044 VMMDev: Guest Log: BIOS: Boot : bseqnr=1, bootseq=0231
+00:00:03.213232 VMMDev: Guest Log: BIOS: Boot from Floppy 0 failed
+00:00:03.213423 VMMDev: Guest Log: BIOS: Boot : bseqnr=2, bootseq=0023
+00:00:03.217609 VMMDev: Guest Log: BIOS: CDROM boot failure code : 0004
+00:00:03.217752 VMMDev: Guest Log: BIOS: Boot from CD-ROM failed
+00:00:03.217921 VMMDev: Guest Log: BIOS: Boot : bseqnr=3, bootseq=0002
+00:00:03.218467 VMMDev: Guest Log: BIOS: Booting from Hard Disk...
+00:00:03.397231 Display::handleDisplayResize: uScreenId=0 pvVRAM=00007f94d4000000 w=640 h=480 bpp=32 cbLine=0xA00 flags=0x0
+00:00:03.397282 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x480, Sending to async-handler
+00:00:03.397362 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x480
+00:00:03.397371 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x480
+00:00:03.397383 GUI: UIFrameBufferPrivate::performResize: Size=640x480, Directly using source bitmap content
+00:00:13.397280 Display::handleDisplayResize: uScreenId=0 pvVRAM=00007f94d412c000 w=640 h=480 bpp=32 cbLine=0xA00 flags=0x0
+00:00:13.397337 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x480, Sending to async-handler
+00:00:13.397418 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x480
+00:00:13.397428 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x480
+00:00:13.397438 GUI: UIFrameBufferPrivate::performResize: Size=640x480, Directly using source bitmap content
+00:00:14.537195 Display::handleDisplayResize: uScreenId=0 pvVRAM=00007f94d4000000 w=640 h=480 bpp=0 cbLine=0x280 flags=0x0
+00:00:14.537261 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=640x480, Sending to async-handler
+00:00:14.537321 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=640x480
+00:00:14.537336 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=640x480
+00:00:14.537351 GUI: UIFrameBufferPrivate::performResize: Size=640x480, Directly using source bitmap content
+00:00:14.557395 Display::handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=720 h=400 bpp=0 cbLine=0x0 flags=0x0
+00:00:14.557476 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=720x400, Sending to async-handler
+00:00:14.557555 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=720x400
+00:00:14.557566 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=720x400
+00:00:14.557578 GUI: UIFrameBufferPrivate::performResize: Size=720x400, Directly using source bitmap content
+00:00:14.725508 GIM: KVM: VCPU  0: Enabled system-time struct. at 0x000000011ff54000 - u32TscScale=0xa05d1e3b i8TscShift=-1 uVersion=2 fFlags=0x1 uTsc=0xa6d11df1f uVirtNanoTS=0x343fff44b
+00:00:14.725604 TM: Switching TSC mode from 'VirtTscEmulated' to 'RealTscOffset'
+00:00:14.797562 GIM: KVM: Enabled wall-clock struct. at 0x000000011ffd4000 - u32Sec=1538575655 u32Nano=610385763 uVersion=2
+00:00:14.806692 PIT: mode=2 count=0x12a5 (4773) - 249.98 Hz (ch=0)
+00:00:14.806920 APIC0: Switched mode to x2APIC
+00:00:14.919125 PIT: mode=0 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:14.920487 APIC1: Switched mode to x2APIC
+00:00:14.920521 GIM: KVM: VCPU  1: Enabled system-time struct. at 0x000000011ff54040 - u32TscScale=0xa05d1e3b i8TscShift=-1 uVersion=2 fFlags=0x1 uTsc=0xa6d11df1f uVirtNanoTS=0x343fff44b
+00:00:15.080480 OHCI: Software reset
+00:00:15.716164 PIIX3 ATA: Ctl#0: RESET, DevSel=0 AIOIf=0 CmdIf0=0x00 (-1 usec ago) CmdIf1=0x00 (-1 usec ago)
+00:00:15.716225 PIIX3 ATA: Ctl#0: finished processing RESET
+00:00:15.716393 PIIX3 ATA: Ctl#1: RESET, DevSel=0 AIOIf=0 CmdIf0=0xa0 (-1 usec ago) CmdIf1=0x00 (-1 usec ago)
+00:00:15.716451 PIIX3 ATA: Ctl#1: finished processing RESET
+00:00:15.717226 EHCI: Hardware reset
+00:00:15.717326 EHCI: USB Operational
+00:00:15.734366 OHCI: USB Reset
+00:00:15.792945 OHCI: Software reset
+00:00:15.793207 OHCI: USB Operational
+00:00:15.837284 EHCI: USB Suspended
+00:00:16.348113 AHCI#0: Reset the HBA
+00:00:16.348139 VD#0: Cancelling all active requests
+00:00:16.348691 AHCI#0: Port 0 reset
+00:00:16.349870 VD#0: Cancelling all active requests
+00:00:18.340956 NAT: Link up
+00:00:18.797913 AIOMgr: Flush failed with VERR_INVALID_PARAMETER, disabling async flushes
+00:00:19.976106 VBVA: InfoScreen: [0] @0,0 800x600, line 0xc80, BPP 32, flags 0x1
+00:00:19.976168 Display::handleDisplayResize: uScreenId=0 pvVRAM=00007f94d4000000 w=800 h=600 bpp=32 cbLine=0xC80 flags=0x1
+00:00:19.976192 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=800x600, Sending to async-handler
+00:00:19.976211 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=800x600
+00:00:19.976220 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=800x600
+00:00:19.976230 GUI: UIFrameBufferPrivate::performResize: Size=800x600, Directly using source bitmap content
+00:00:19.976242 VBVA: InfoScreen: [0] @0,0 800x600, line 0xc80, BPP 32, flags 0x1
+00:00:19.976252 Display::handleDisplayResize: uScreenId=0 pvVRAM=00007f94d4000000 w=800 h=600 bpp=32 cbLine=0xC80 flags=0x1
+00:00:19.976265 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=800x600, Sending to async-handler
+00:00:19.977312 Display::handleDisplayResize: uScreenId=0 pvVRAM=00007f94d4000000 w=800 h=600 bpp=32 cbLine=0xC80 flags=0x0
+00:00:19.977355 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=800x600, Sending to async-handler
+00:00:19.984899 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=800x600
+00:00:19.984921 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=800x600
+00:00:19.984933 GUI: UIFrameBufferPrivate::performResize: Size=800x600, Directly using source bitmap content
+00:00:19.986651 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=800x600
+00:00:19.986669 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=800x600
+00:00:20.007056 VMMDev: Guest Additions information report: Version 5.2.8 r120774 '5.2.8_KernelUbuntu'
+00:00:20.007110 VMMDev: Guest Additions information report: Interface = 0x00010004 osType = 0x00053100 (Linux >= 2.6, 64-bit)
+00:00:20.007202 VMMDev: Guest Additions capability report: (0x0 -> 0x0) seamless: no, hostWindowMapping: no, graphics: no
+00:00:20.007300 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:00:20.007311 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:20.007321 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:00:20.007325 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:20.007344 VMMDev: Guest reported fixed hypervisor window at 00041800000 LB 0x2400000 (rc=VINF_SUCCESS)
+00:00:20.007359 VMMDev: vmmDevReqHandler_HeartbeatConfigure: No change (fHeartbeatActive=false).
+00:00:20.007397 VMMDev: Heartbeat flatline timer set to trigger after 4 000 000 000 ns
+00:00:20.007431 VMMDev: Guest Log: vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+00:00:20.007552 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners.
+00:00:20.007566 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary.
+00:00:20.007572 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:00:20.007575 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:20.009206 VMMDev: Guest Log: vboxguest: misc device minor 55, IRQ 20, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)
+00:00:20.561079 IEM: rdmsr(0x619) -> #GP(0)
+00:00:20.594038 IEM: rdmsr(0x619) -> #GP(0)
+00:00:20.789362 AC97: Reset
+00:00:20.789502 AC97: Reset
+00:00:20.792157 ALSA: Using output device "default"
+00:00:20.849753 ALSA: Using output device "default"
+00:00:20.894117 ALSA: Using output device "default"
+00:00:20.932435 ALSA: Using output device "default"
+00:00:20.977049 ALSA: Using output device "default"
+00:00:21.016499 ALSA: Using output device "default"
+00:00:21.058786 ALSA: Using output device "default"
+00:00:21.098079 ALSA: Using output device "default"
+00:00:21.144648 ALSA: Using output device "default"
+00:00:21.149862 VBVA: InfoScreen: [0] @0,0 800x600, line 0xc80, BPP 32, flags 0x1
+00:00:21.149898 Display::handleDisplayResize: uScreenId=0 pvVRAM=00007f94d41d5000 w=800 h=600 bpp=32 cbLine=0xC80 flags=0x1
+00:00:21.149946 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=800x600, Sending to async-handler
+00:00:21.149992 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=800x600
+00:00:21.150002 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=800x600
+00:00:21.150013 GUI: UIFrameBufferPrivate::performResize: Size=800x600, Directly using source bitmap content
+00:00:21.152874 ALSA: Using input device "default"
+00:00:21.157672 ALSA: Using input device "default"
+00:00:21.164451 ALSA: Using input device "default"
+00:00:21.168025 ALSA: Using input device "default"
+00:00:21.175495 ALSA: Using input device "default"
+00:00:21.178876 ALSA: Using input device "default"
+00:00:21.184172 ALSA: Using input device "default"
+00:00:21.193406 ALSA: Using input device "default"
+00:00:21.196940 ALSA: Using input device "default"
+00:00:21.200133 ALSA: Using input device "default"
+00:00:21.203381 ALSA: Using input device "default"
+00:00:21.209999 ALSA: Using input device "default"
+00:00:21.212684 ALSA: Using input device "default"
+00:00:21.215029 ALSA: Using input device "default"
+00:00:21.217447 ALSA: Using input device "default"
+00:00:21.219567 ALSA: Using input device "default"
+00:00:21.221556 ALSA: Using input device "default"
+00:00:21.225185 ALSA: Using input device "default"
+00:00:21.988790 NAT: IPv6 not supported
+00:00:22.113248 NAT: resolv.conf: nameserver 127.0.0.53
+00:00:22.113281 NAT: DNS server 127.0.0.53 registration detected, switching to the DNS proxy
+00:00:22.113285 NAT: Adding domain name westada.internal
+00:00:22.113288 NAT: DNS#0: 127.0.0.53
+00:00:22.113292 NAT: DHCP offered IP address 10.0.2.15
+00:00:22.113715 NAT: DHCP offered IP address 10.0.2.15
+00:00:22.121982 VMMDev: Guest Additions capability report: (0x0 -> 0x0) seamless: no, hostWindowMapping: no, graphics: no
+00:00:22.122160 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:00:22.122181 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:22.292589 VBVA: InfoScreen: [0] @0,0 800x600, line 0xc80, BPP 32, flags 0x1
+00:00:22.292648 Display::handleDisplayResize: uScreenId=0 pvVRAM=00007f94d4000000 w=800 h=600 bpp=32 cbLine=0xC80 flags=0x1
+00:00:22.292679 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=800x600, Sending to async-handler
+00:00:22.294052 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=800x600
+00:00:22.294079 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=800x600
+00:00:22.294096 GUI: UIFrameBufferPrivate::performResize: Size=800x600, Directly using source bitmap content
+00:00:22.305451 Display::handleDisplayResize: uScreenId=0 pvVRAM=00007f94d4000000 w=800 h=600 bpp=32 cbLine=0xC80 flags=0x0
+00:00:22.305503 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=800x600, Sending to async-handler
+00:00:22.305566 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=800x600
+00:00:22.305574 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=800x600
+00:00:22.305598 GUI: UIFrameBufferPrivate::performResize: Size=800x600, Directly using source bitmap content
+00:00:22.328694 VMMDev: Guest Log: VBoxService 5.2.16 r123759 (verbosity: 0) linux.amd64 (Jul 16 2018 17:06:52) release log
+00:00:22.328724 VMMDev: Guest Log: 00:00:00.000081 main     Log opened 2018-10-03T14:07:42.012709000Z
+00:00:22.328776 VMMDev: Guest Log: 00:00:00.000221 main     OS Product: Linux
+00:00:22.328801 VMMDev: Guest Log: 00:00:00.000249 main     OS Release: 4.15.0-34-generic
+00:00:22.328883 VMMDev: Guest Log: 00:00:00.000273 main     OS Version: #37-Ubuntu SMP Mon Aug 27 15:21:48 UTC 2018
+00:00:22.328908 VMMDev: Guest Log: 00:00:00.000308 main     Executable: /opt/VBoxGuestAdditions-5.2.16/sbin/VBoxService
+00:00:22.328912 VMMDev: Guest Log: 00:00:00.000309 main     Process ID: 940
+00:00:22.328915 VMMDev: Guest Log: 00:00:00.000310 main     Package type: LINUX_64BITS_GENERIC
+00:00:22.329964 VMMDev: Guest Log: 00:00:00.001366 main     5.2.16 r123759 started. Verbose level = 0
+00:00:22.330820 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:00:22.330830 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:22.338213 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners.
+00:00:22.338237 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary.
+00:00:22.338242 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:00:22.338245 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:22.815678 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners.
+00:00:22.815711 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary.
+00:00:22.815728 GUI: UIMachineView::sltPerformGuestResize: Sending guest size-hint to screen 0 as 1920x1100 if necessary
+00:00:22.815750 VMMDev: SetVideoModeHint: Got a video mode hint (1920x1100x32)@(0x0),(1;0) at 0
+00:00:22.815756 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:00:22.815759 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:23.342269 VBVA: InfoScreen: [0] @0,0 1920x1100, line 0x1e00, BPP 32, flags 0x1
+00:00:23.342305 Display::handleDisplayResize: uScreenId=0 pvVRAM=00007f94d41d5000 w=1920 h=1100 bpp=32 cbLine=0x1E00 flags=0x1
+00:00:23.342340 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1920x1100, Sending to async-handler
+00:00:23.342408 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1920x1100
+00:00:23.342419 GUI: UIFrameBufferPrivate::handleNotifyChange: Size=1920x1100
+00:00:23.342428 GUI: UIFrameBufferPrivate::performResize: Size=1920x1100, Directly using source bitmap content
+00:00:23.342877 GUI: UIMachineView::storeGuestSizeHint: Storing guest-screen size-hint for screen 0 as 1920x1100
+00:00:30.036869 VMMDev: Guest Additions capability report: (0x0 -> 0x1) seamless: yes, hostWindowMapping: no, graphics: no
+00:00:30.036979 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners.
+00:00:30.037004 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary.
+00:00:30.037009 GUI: UISession::sltAdditionsChange: GA state change event came, notifying listeners.
+00:00:30.037012 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=0, Machine-state=5
+00:00:30.054387 Starting host clipboard service
+00:00:30.054416 Shared clipboard: Initializing X11 clipboard backend
+00:00:30.055741 Shared clipboard: Starting shared clipboard thread
+00:00:30.366971 ALSA: Using input device "default"
+00:00:30.395363 ALSA: Using output device "default"
+00:00:30.413111 ALSA: Using input device "default"
+00:00:31.920876 OpenGL Info: Render SPU: Opening display :0
+00:00:31.937623 OpenGL Info: Render SPU: GL_VENDOR:   Intel Open Source Technology Center
+00:00:31.937641 OpenGL Info: Render SPU: GL_RENDERER: Mesa DRI Intel(R) Ivybridge Desktop 
+00:00:31.937644 OpenGL Info: Render SPU: GL_VERSION:  3.0 Mesa 18.0.5
+00:00:31.937647 OpenGL Info: Render SPU: GL_EXTENSIONS: GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_trinary_minmax GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_APPLE_object_purgeable GL_APPLE_packed_pixels GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sync GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_window_pos GL_ATI_blend_equation_separate GL_ATI_draw_buffers GL_ATI_separate_stencil GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_copy_texture GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_gpu_program_parameters GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_subtexture GL_EXT_texture GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_add GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod_bias GL_EXT_texture_object GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_IBM_multimode_draw_arrays GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_INGR_blend_func_separate GL_INTEL_performance_query GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_robustness GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_MESA_window_pos GL_NV_blend_square GL_NV_conditional_render GL_NV_depth_clamp GL_NV_light_max_exponent GL_NV_packed_depth_stencil GL_NV_primitive_restart GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_env_combine4 GL_NV_texture_rectangle GL_OES_EGL_image GL_OES_read_format GL_S3_s3tc GL_SGIS_generate_mipmap GL_SGIS_texture_border_clamp GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_SUN_multi_draw_arrays 
+00:00:34.858232 OpenGL Info: Render SPU: GL_VENDOR:   Intel Open Source Technology Center
+00:00:34.858262 OpenGL Info: Render SPU: GL_RENDERER: Mesa DRI Intel(R) Ivybridge Desktop 
+00:00:34.858267 OpenGL Info: Render SPU: GL_VERSION:  3.0 Mesa 18.0.5
+00:00:34.858305 OpenGL Info: Render SPU: GL_EXTENSIONS: GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_trinary_minmax GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_APPLE_object_purgeable GL_APPLE_packed_pixels GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sync GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_window_pos GL_ATI_blend_equation_separate GL_ATI_draw_buffers GL_ATI_separate_stencil GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_copy_texture GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_gpu_program_parameters GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_subtexture GL_EXT_texture GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_add GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod_bias GL_EXT_texture_object GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_IBM_multimode_draw_arrays GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_INGR_blend_func_separate GL_INTEL_performance_query GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_robustness GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_MESA_window_pos GL_NV_blend_square GL_NV_conditional_render GL_NV_depth_clamp GL_NV_light_max_exponent GL_NV_packed_depth_stencil GL_NV_primitive_restart GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_env_combine4 GL_NV_texture_rectangle GL_OES_EGL_image GL_OES_read_format GL_S3_s3tc GL_SGIS_generate_mipmap GL_SGIS_texture_border_clamp GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_SUN_multi_draw_arrays 
+00:00:35.335215 OpenGL Info: Render SPU: GL_VENDOR:   Intel Open Source Technology Center
+00:00:35.335236 OpenGL Info: Render SPU: GL_RENDERER: Mesa DRI Intel(R) Ivybridge Desktop 
+00:00:35.335240 OpenGL Info: Render SPU: GL_VERSION:  3.0 Mesa 18.0.5
+00:00:35.335242 OpenGL Info: Render SPU: GL_EXTENSIONS: GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_trinary_minmax GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_APPLE_object_purgeable GL_APPLE_packed_pixels GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sync GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_window_pos GL_ATI_blend_equation_separate GL_ATI_draw_buffers GL_ATI_separate_stencil GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_copy_texture GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_gpu_program_parameters GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_specular_color GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_subtexture GL_EXT_texture GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_add GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod_bias GL_EXT_texture_object GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_IBM_multimode_draw_arrays GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_INGR_blend_func_separate GL_INTEL_performance_query GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_robustness GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_MESA_window_pos GL_NV_blend_square GL_NV_conditional_render GL_NV_depth_clamp GL_NV_light_max_exponent GL_NV_packed_depth_stencil GL_NV_primitive_restart GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_env_combine4 GL_NV_texture_rectangle GL_OES_EGL_image GL_OES_read_format GL_S3_s3tc GL_SGIS_generate_mipmap GL_SGIS_texture_border_clamp GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_SUN_multi_draw_arrays 
+00:44:20.183156 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+00:44:20.396098 AIOMgr: Endpoint for file '/home/compsci/VirtualBox VMs/fischer_hunter/Snapshots/{6a7fe59f-fcac-4e4b-a8e1-6cfdb387662d}.vdi' (flags 000c0781) created successfully
+00:44:20.420688 PDMR3Suspend: 237 483 306 ns run time
+00:44:20.420699 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+00:44:20.420718 Console: Machine state changed to 'Paused'
+00:44:24.188772 GUI: Request for close-action to power VM off.
+00:44:24.188791 GUI: Passing request to power VM off from machine-logic to UI session.
+00:44:24.188795 GUI: Powering VM down on UI session power off request...
+00:44:24.191242 Console: Machine state changed to 'Stopping'
+00:44:24.191638 Console::powerDown(): A request to power off the VM has been issued (mMachineState=Stopping, InUninit=0)
+00:44:24.191650 Display::handleDisplayResize: uScreenId=0 pvVRAM=00007f94d41d5000 w=1920 h=1100 bpp=32 cbLine=0x1E00 flags=0x1
+00:44:24.191672 GUI: UIFrameBufferPrivate::NotifyChange: Screen=0, Origin=0x0, Size=1920x1100, Sending to async-handler
+00:44:24.192275 Changing the VM state from 'SUSPENDED' to 'POWERING_OFF'
+00:44:24.192288 ****************** Guest state at power off for VCpu 1 ******************
+00:44:24.192306 Guest CPUM (VCPU 1) state: 
+00:44:24.192310 rax=ffffffffb4d9a8a0 rbx=0000000000000001 rcx=0000000000000000 rdx=0000000000000000
+00:44:24.192313 rsi=0000000000000000 rdi=0000000000000000 r8 =000003d74a646df3 r9 =ffffbe1b40fe3d38
+00:44:24.192315 r10=0000000000000000 r11=000003356bac1bfb r12=0000000000000001 r13=0000000000000000
+00:44:24.192316 r14=0000000000000000 r15=0000000000000000
+00:44:24.192317 rip=ffffffffb4d9abd6 rsp=ffffbe1b4068be80 rbp=ffffbe1b4068be80 iopl=0         nv up ei pl nz na po nc
+00:44:24.192320 cs={0010 base=0000000000000000 limit=ffffffff flags=0000a09b}
+00:44:24.192321 ds={0000 base=0000000000000000 limit=ffffffff flags=0001c000}
+00:44:24.192322 es={0000 base=0000000000000000 limit=ffffffff flags=0001c000}
+00:44:24.192323 fs={0000 base=0000000000000000 limit=ffffffff flags=0001c000}
+00:44:24.192324 gs={0000 base=ffff991adfd00000 limit=ffffffff flags=0001c000}
+00:44:24.192325 ss={0018 base=0000000000000000 limit=ffffffff flags=0000c093}
+00:44:24.192326 cr0=0000000080050033 cr2=0000245127cdb000 cr3=000000011b60a003 cr4=00000000000606e0
+00:44:24.192328 dr0=0000000000000000 dr1=0000000000000000 dr2=0000000000000000 dr3=0000000000000000
+00:44:24.192329 dr4=0000000000000000 dr5=0000000000000000 dr6=00000000ffff0ff0 dr7=0000000000000400
+00:44:24.192330 gdtr=fffffe000002d000:007f  idtr=fffffe0000000000:0fff  eflags=00000246
+00:44:24.192332 ldtr={0000 base=00000000 limit=ffffffff flags=0001c000}
+00:44:24.192333 tr  ={0040 base=fffffe000002f000 limit=0000206f flags=0000008b}
+00:44:24.192334 SysEnter={cs=0010 eip=ffffffffb4e01a80 esp=fffffe000002e200}
+00:44:24.192336 xcr=0000000000000007 xcr1=0000000000000000 xss=0000000000000000 (fXStateMask=0000000000000007)
+00:44:24.192338 FCW=037f FSW=0000 FTW=0000 FOP=0000 MXCSR=00001fa0 MXCSR_MASK=0000ffff
+00:44:24.192339 FPUIP=00000000 CS=0000 Rsrvd1=0000  FPUDP=00000000 DS=0000 Rsvrd2=0000
+00:44:24.192340 ST(0)=FPR0={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:44:24.192343 ST(1)=FPR1={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:44:24.192344 ST(2)=FPR2={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:44:24.192346 ST(3)=FPR3={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:44:24.192347 ST(4)=FPR4={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:44:24.192349 ST(5)=FPR5={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:44:24.192350 ST(6)=FPR6={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:44:24.192352 ST(7)=FPR7={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:44:24.192353 YMM0 =00000000'00000000'00000000'00000000'00000000'000002bd'00000000'3dea1801
+00:44:24.192355 YMM1 =00000000'00000000'00000000'00000000'00000000'00000000'00000000'044c0780
+00:44:24.192357 YMM2 =00000000'00000000'00000000'00000000'00000000'00000000'0062807f'03800015
+00:44:24.192359 YMM3 =00000000'00000000'00000000'00000000'00020000'00000000'ffffffff'01000001
+00:44:24.192361 YMM4 =00000000'00000000'00000000'00000000'00007f11'f80015d0'00000000'00000000
+00:44:24.192363 YMM5 =00000000'00000000'00000000'00000000'00007f11'f800392b'00007f11'f8006c5f
+00:44:24.192365 YMM6 =00000000'00000000'00000000'00000000'00007f11'f8006c5f'00007f11'f8013920
+00:44:24.192366 YMM7 =00000000'00000000'00000000'00000000'00007f11'f8006c60'00007f11'f8006c60
+00:44:24.192368 YMM8 =00000000'00000000'00000000'00000000'746e6968'2e746658'0a31093a'7361696c
+00:44:24.192370 YMM9 =00000000'00000000'00000000'00000000'ff00ffff'ffffff00'ffffffff'ffffffff
+00:44:24.192372 YMM10=00000000'00000000'00000000'00000000'20002020'00000000'00000000'00000000
+00:44:24.192374 YMM11=00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:44:24.192375 YMM12=00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:44:24.192377 YMM13=00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:44:24.192378 YMM14=00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:44:24.192380 YMM15=00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:44:24.192381 EFER         =0000000000000d01
+00:44:24.192382 PAT          =0007040600070406
+00:44:24.192383 STAR         =0023001000000000
+00:44:24.192384 CSTAR        =ffffffffb4e01b10
+00:44:24.192385 LSTAR        =fffffe0000032000
+00:44:24.192385 SFMASK       =0000000000047700
+00:44:24.192386 KERNELGSBASE =0000000000000000
+00:44:24.192388 ***
+00:44:24.192389 VCPU[1] hardware virtualization state:
+00:44:24.192390 No/inactive hwvirt state
+00:44:24.192391 ***
+00:44:24.192398 Guest paging mode (VCPU #1):  AMD64+NX (changed 3 times), A20 enabled (changed 0 times)
+00:44:24.192400 Shadow paging mode (VCPU #1): EPT
+00:44:24.192401 Host paging mode:              AMD64+G+NX
+00:44:24.192401 ***
+00:44:24.192402 ************** End of Guest state at power off for VCpu 1 ***************
+00:44:24.192423 ****************** Guest state at power off for VCpu 0 ******************
+00:44:24.192428 Guest CPUM (VCPU 0) state: 
+00:44:24.192430 rax=ffffffffb4d9a8a0 rbx=0000000000000000 rcx=0000000000000000 rdx=0000000000000000
+00:44:24.192432 rsi=0000000000000000 rdi=0000000000000000 r8 =ffff991adfc1d040 r9 =0000000000000000
+00:44:24.192434 r10=0000000000000000 r11=000003356bac1bfb r12=0000000000000000 r13=0000000000000000
+00:44:24.192435 r14=0000000000000000 r15=0000000000000000
+00:44:24.192436 rip=ffffffffb4d9abd6 rsp=ffffffffb5803e28 rbp=ffffffffb5803e28 iopl=0         nv up ei pl nz na po nc
+00:44:24.192438 cs={0010 base=0000000000000000 limit=ffffffff flags=0000a09b}
+00:44:24.192439 ds={0000 base=0000000000000000 limit=ffffffff flags=0001c000}
+00:44:24.192440 es={0000 base=0000000000000000 limit=ffffffff flags=0001c000}
+00:44:24.192441 fs={0000 base=0000000000000000 limit=ffffffff flags=0001c000}
+00:44:24.192442 gs={0000 base=ffff991adfc00000 limit=ffffffff flags=0001c000}
+00:44:24.192443 ss={0018 base=0000000000000000 limit=ffffffff flags=0000c093}
+00:44:24.192444 cr0=0000000080050033 cr2=00007eff63a393c0 cr3=000000011b60a002 cr4=00000000000606f0
+00:44:24.192446 dr0=0000000000000000 dr1=0000000000000000 dr2=0000000000000000 dr3=0000000000000000
+00:44:24.192447 dr4=0000000000000000 dr5=0000000000000000 dr6=00000000ffff0ff0 dr7=0000000000000400
+00:44:24.192448 gdtr=fffffe0000001000:007f  idtr=fffffe0000000000:0fff  eflags=00000246
+00:44:24.192450 ldtr={0000 base=00000000 limit=ffffffff flags=0001c000}
+00:44:24.192451 tr  ={0040 base=fffffe0000003000 limit=0000206f flags=0000008b}
+00:44:24.192452 SysEnter={cs=0010 eip=ffffffffb4e01a80 esp=fffffe0000002200}
+00:44:24.192454 xcr=0000000000000007 xcr1=0000000000000000 xss=0000000000000000 (fXStateMask=0000000000000007)
+00:44:24.192456 FCW=037f FSW=0000 FTW=0000 FOP=0000 MXCSR=00001f80 MXCSR_MASK=0000ffff
+00:44:24.192457 FPUIP=00000000 CS=0000 Rsrvd1=0000  FPUDP=00000000 DS=0000 Rsvrd2=0000
+00:44:24.192458 ST(0)=FPR0={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:44:24.192461 ST(1)=FPR1={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:44:24.192462 ST(2)=FPR2={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:44:24.192463 ST(3)=FPR3={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:44:24.192465 ST(4)=FPR4={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:44:24.192466 ST(5)=FPR5={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:44:24.192467 ST(6)=FPR6={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:44:24.192469 ST(7)=FPR7={0000'00000000'00000000} t0 +0.0000000000000000000000 * 2 ^ -16383 (*)
+00:44:24.192470 YMM0 =00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:44:24.192472 YMM1 =00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:44:24.192474 YMM2 =00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:44:24.192475 YMM3 =00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:44:24.192476 YMM4 =00000000'00000000'00000000'00000000'ffffffff'ffffffff'ffff0000'00000000
+00:44:24.192478 YMM5 =00000000'00000000'00000000'00000000'00000000'00000000'00007ffd'00000000
+00:44:24.192480 YMM6 =00000000'00000000'00000000'00000000'00007ffd'200f4d40'00007ffd'200f4d40
+00:44:24.192482 YMM7 =00000000'00000000'00000000'00000000'00000000'00000000'00007f09'2574c489
+00:44:24.192484 YMM8 =00000000'00000000'00000000'00000000'00000000'004236d0'00007f09'25af9628
+00:44:24.192485 YMM9 =00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:44:24.192487 YMM10=00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:44:24.192488 YMM11=00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:44:24.192490 YMM12=00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:44:24.192491 YMM13=00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:44:24.192493 YMM14=00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:44:24.192494 YMM15=00000000'00000000'00000000'00000000'00000000'00000000'00000000'00000000
+00:44:24.192496 EFER         =0000000000000d01
+00:44:24.192496 PAT          =0007040600070406
+00:44:24.192497 STAR         =0023001000000000
+00:44:24.192498 CSTAR        =ffffffffb4e01b10
+00:44:24.192499 LSTAR        =fffffe0000006000
+00:44:24.192500 SFMASK       =0000000000047700
+00:44:24.192500 KERNELGSBASE =0000000000000000
+00:44:24.192501 ***
+00:44:24.192503 VCPU[0] hardware virtualization state:
+00:44:24.192503 No/inactive hwvirt state
+00:44:24.192504 ***
+00:44:24.192506 Guest paging mode (VCPU #0):  AMD64+NX (changed 1586320 times), A20 enabled (changed 2 times)
+00:44:24.192507 Shadow paging mode (VCPU #0): EPT
+00:44:24.192508 Host paging mode:              AMD64+G+NX
+00:44:24.192508 ***
+00:44:24.192510 Active Timers (pVM=00007f955401f000)
+00:44:24.192510 pTimerR3         offNext  offPrev  offSched Clock               Time             Expire HzHint State                     Description
+00:44:24.192514 00007f9504b668f0 000222a0 00000000 00000000 Real             3158859            3154854      0 2-ACTIVE                  VGA Refresh Timer
+00:44:24.192518 00007f9504b88b90 ffffff80 fffddd60 00000000 Real             3158859            3154873      0 2-ACTIVE                  EMT Yielder
+00:44:24.192520 00007f9504b88b10 00000000 00000080 00000000 Real             3158859            3155634      0 2-ACTIVE                  CPU Load Timer
+00:44:24.192523 00007f9504b65cd0 00000000 00000000 00000000 Virt       2659723299307      2662189731664      0 2-ACTIVE                  Heartbeat flatlined
+00:44:24.192526 00007f9504b64450 000012b0 00000000 00000000 VrSy       2659483079578      2659509358680     19 2-ACTIVE                  APIC Timer 1
+00:44:24.192529 00007f9504b65700 00022dc0 ffffed50 00000000 VrSy       2659483079578      2659990000000      0 2-ACTIVE                  MC146818 RTC/CMOS - Second
+00:44:24.192531 00007f9504b884c0 00000000 fffdd240 00000000 VrSy       2659483079578      2999660079705      0 2-ACTIVE                  ACPI PM Timer
+00:44:24.192534 ***
+00:44:24.192536 ************** End of Guest state at power off ***************
+00:44:24.204014 PDMR3PowerOff: 11 450 857 ns run time
+00:44:24.204044 Changing the VM state from 'POWERING_OFF' to 'OFF'
+00:44:24.206999 Stopping the host clipboard service
+00:44:24.207022 ClipStopX11: stopping the shared clipboard X11 backend
+00:44:24.207049 Shared clipboard: Shared clipboard thread terminated successfully
+00:44:24.207514 GUI: UIMachineView::sltHandleNotifyChange: Screen=0, Size=1920x1100
+00:44:24.213306 Changing the VM state from 'OFF' to 'DESTROYING'
+00:44:24.213479 ************************* Statistics *************************
+00:44:24.213560 /CPUM/MSR-Totals/Reads             103326 times
+00:44:24.213567 /CPUM/MSR-Totals/ReadsRaisingGP         0 times
+00:44:24.213569 /CPUM/MSR-Totals/ReadsUnknown           4 times
+00:44:24.213571 /CPUM/MSR-Totals/Writes           1414234 times
+00:44:24.213574 /CPUM/MSR-Totals/WritesRaisingGP        0 times
+00:44:24.213576 /CPUM/MSR-Totals/WritesToIgnoredBits        2 times
+00:44:24.213578 /CPUM/MSR-Totals/WritesUnknown          0 times
+00:44:24.213581 /Devices/AHCI0/Port0/QueryBufAttempts        0 count
+00:44:24.213583 /Devices/AHCI0/Port0/QueryBufSuccess        0 count
+00:44:24.213585 /Devices/AHCI0/Port0/ReadBytes   753177088 bytes
+00:44:24.213588 /Devices/AHCI0/Port0/ReqsFlush        334 count
+00:44:24.213590 /Devices/AHCI0/Port0/ReqsRead       39491 count
+00:44:24.213593 /Devices/AHCI0/Port0/ReqsSubmitted    42624 count
+00:44:24.213595 /Devices/AHCI0/Port0/ReqsSucceeded    42624 count
+00:44:24.213597 /Devices/AHCI0/Port0/ReqsWrite       2799 count
+00:44:24.213599 /Devices/AHCI0/Port0/WrittenBytes 69809152 bytes
+00:44:24.213602 /Devices/E1k0/ReceiveBytes          46468 bytes
+00:44:24.213604 /Devices/E1k0/TransmitBytes         26701 bytes
+00:44:24.213606 /Devices/E1k0/iStatIntLost              0 ns
+00:44:24.213609 /Devices/E1k0/iStatIntLostOne           0 ns
+00:44:24.213611 /Devices/E1k0/u64ArmedAt                0 ns
+00:44:24.213614 /Devices/E1k0/uStatDescCtx            224 ns
+00:44:24.213616 /Devices/E1k0/uStatDescDat            224 ns
+00:44:24.213618 /Devices/E1k0/uStatDescLeg             32 ns
+00:44:24.213620 /Devices/E1k0/uStatInt               1685 ns
+00:44:24.213623 /Devices/E1k0/uStatIntEarly             0 ns
+00:44:24.213625 /Devices/E1k0/uStatIntICS            1311 ns
+00:44:24.213627 /Devices/E1k0/uStatIntIMS              73 ns
+00:44:24.213629 /Devices/E1k0/uStatIntLate             38 ns
+00:44:24.213631 /Devices/E1k0/uStatIntLower             1 ns
+00:44:24.213634 /Devices/E1k0/uStatIntMasked          132 ns
+00:44:24.213636 /Devices/E1k0/uStatIntRDTR              0 ns
+00:44:24.213638 /Devices/E1k0/uStatIntRXDMT0            0 ns
+00:44:24.213640 /Devices/E1k0/uStatIntRx              197 ns
+00:44:24.213642 /Devices/E1k0/uStatIntSkip            242 ns
+00:44:24.213644 /Devices/E1k0/uStatIntTXQE              0 ns
+00:44:24.213657 /Devices/E1k0/uStatIntTry            2059 ns
+00:44:24.213660 /Devices/E1k0/uStatIntTx              256 ns
+00:44:24.213662 /Devices/E1k0/uStatMaxTxDelay           0 ns
+00:44:24.213664 /Devices/E1k0/uStatNoIntICR             0 ns
+00:44:24.213667 /Devices/E1k0/uStatRAD                  0 ns
+00:44:24.213669 /Devices/E1k0/uStatRID                  0 ns
+00:44:24.213671 /Devices/E1k0/uStatRxFrm              197 ns
+00:44:24.213673 /Devices/E1k0/uStatTAD                  0 ns
+00:44:24.213676 /Devices/E1k0/uStatTID                  0 ns
+00:44:24.213678 /Devices/E1k0/uStatTx1514             256 ns
+00:44:24.213680 /Devices/E1k0/uStatTx16384              0 ns
+00:44:24.213682 /Devices/E1k0/uStatTx2962               0 ns
+00:44:24.213684 /Devices/E1k0/uStatTx32768              0 ns
+00:44:24.213686 /Devices/E1k0/uStatTx4410               0 ns
+00:44:24.213688 /Devices/E1k0/uStatTx5858               0 ns
+00:44:24.213690 /Devices/E1k0/uStatTx7306               0 ns
+00:44:24.213692 /Devices/E1k0/uStatTx8754               0 ns
+00:44:24.213695 /Devices/E1k0/uStatTxDelayExp           0 ns
+00:44:24.213697 /Devices/E1k0/uStatTxDelayed            0 ns
+00:44:24.213699 /Devices/E1k0/uStatTxFrm              256 ns
+00:44:24.213701 /Devices/E1k0/uStatTxIDE                0 ns
+00:44:24.213703 /Devices/E1k0/uStatTxLarge              0 ns
+00:44:24.213705 /Devices/E1k0/uStatTxNoRS             224 ns
+00:44:24.213708 /Devices/IDE0/ATA0/Unit0/AtapiDMA        0 times
+00:44:24.213710 /Devices/IDE0/ATA0/Unit0/AtapiPIO        0 times
+00:44:24.213712 /Devices/IDE0/ATA0/Unit0/DMA            0 times
+00:44:24.213714 /Devices/IDE0/ATA0/Unit0/PIO            0 times
+00:44:24.213716 /Devices/IDE0/ATA0/Unit0/ReadBytes        0 bytes
+00:44:24.213718 /Devices/IDE0/ATA0/Unit0/WrittenBytes        0 bytes
+00:44:24.213721 /Devices/IDE0/ATA0/Unit1/AtapiDMA        0 times
+00:44:24.213723 /Devices/IDE0/ATA0/Unit1/AtapiPIO        0 times
+00:44:24.213725 /Devices/IDE0/ATA0/Unit1/DMA            0 times
+00:44:24.213727 /Devices/IDE0/ATA0/Unit1/PIO            0 times
+00:44:24.213729 /Devices/IDE0/ATA0/Unit1/ReadBytes        0 bytes
+00:44:24.213731 /Devices/IDE0/ATA0/Unit1/WrittenBytes        0 bytes
+00:44:24.213733 /Devices/IDE0/ATA1/Unit0/AtapiDMA      149 times
+00:44:24.213735 /Devices/IDE0/ATA1/Unit0/AtapiPIO     1366 times
+00:44:24.213737 /Devices/IDE0/ATA1/Unit0/DMA            0 times
+00:44:24.213739 /Devices/IDE0/ATA1/Unit0/PIO            0 times
+00:44:24.213741 /Devices/IDE0/ATA1/Unit0/ReadBytes   532480 bytes
+00:44:24.213744 /Devices/IDE0/ATA1/Unit0/WrittenBytes        0 bytes
+00:44:24.213746 /Devices/IDE0/ATA1/Unit1/AtapiDMA        0 times
+00:44:24.213748 /Devices/IDE0/ATA1/Unit1/AtapiPIO        0 times
+00:44:24.213750 /Devices/IDE0/ATA1/Unit1/DMA            0 times
+00:44:24.213752 /Devices/IDE0/ATA1/Unit1/PIO            0 times
+00:44:24.213754 /Devices/IDE0/ATA1/Unit1/ReadBytes        0 bytes
+00:44:24.213756 /Devices/IDE0/ATA1/Unit1/WrittenBytes        0 bytes
+00:44:24.213758 /Devices/PIIX3IDE0/Port2/QueryBufAttempts        0 count
+00:44:24.213760 /Devices/PIIX3IDE0/Port2/QueryBufSuccess        0 count
+00:44:24.213762 /Devices/PIIX3IDE0/Port2/ReadBytes   532480 bytes
+00:44:24.213764 /Devices/PIIX3IDE0/Port2/ReqsRead      137 count
+00:44:24.213766 /Devices/PIIX3IDE0/Port2/ReqsSubmitted      137 count
+00:44:24.213768 /Devices/PIIX3IDE0/Port2/ReqsSucceeded      137 count
+00:44:24.213771 /Devices/VMMDev/BalloonChunks           0 count
+00:44:24.213773 /FT/Checkpoint/Network                  0 times
+00:44:24.213775 /FT/Checkpoint/Storage                  0 times
+00:44:24.213778 /FT/Received/Mem                        0 bytes
+00:44:24.213780 /FT/Received/State                      0 bytes
+00:44:24.213782 /FT/Sent/Mem                            0 bytes
+00:44:24.213784 /FT/Sent/State                          0 bytes
+00:44:24.213787 /FT/Sync/DeltaMem                       0 times
+00:44:24.213789 /FT/Sync/DeltaVM                        0 times
+00:44:24.213791 /FT/Sync/Full                           0 times
+00:44:24.213794 /GIM/Hypercalls                         8 times
+00:44:24.213799 /GMM/VM/Allocated/cBasePages       439357 pages
+00:44:24.213801 /GMM/VM/Allocated/cFixedPages           0 pages
+00:44:24.213803 /GMM/VM/Allocated/cShadowPages          0 pages
+00:44:24.213806 /GMM/VM/Reserved/cBasePages       1048734 pages
+00:44:24.213808 /GMM/VM/Reserved/cFixedPages        33796 pages
+00:44:24.213810 /GMM/VM/Reserved/cShadowPages           1 pages
+00:44:24.213813 /GMM/VM/cBalloonedPages                 0 pages
+00:44:24.213815 /GMM/VM/cMaxBalloonedPages              0 pages
+00:44:24.213817 /GMM/VM/cPrivatePages              439357 pages
+00:44:24.213819 /GMM/VM/cReqActuallyBalloonedPages        0 pages
+00:44:24.213821 /GMM/VM/cReqBalloonedPages              0 pages
+00:44:24.213823 /GMM/VM/cReqDeflatePages                0 pages
+00:44:24.213826 /GMM/VM/cShareableModules               0 count
+00:44:24.213828 /GMM/VM/cSharedPages                    0 pages
+00:44:24.213830 /GMM/VM/enmPolicy                       1 
+00:44:24.213833 /GMM/VM/enmPriority                     2 
+00:44:24.213835 /GMM/VM/fBallooningEnabled       false    
+00:44:24.213837 /GMM/VM/fMayAllocate             true     
+00:44:24.213839 /GMM/VM/fSharedPagingEnabled     false    
+00:44:24.213841 /GMM/cAllocatedPages               439357 pages
+00:44:24.213844 /GMM/cBalloonedPages                    0 pages
+00:44:24.213846 /GMM/cChunks                          859 count
+00:44:24.213849 /GMM/cDuplicatePages                    0 pages
+00:44:24.213851 /GMM/cFreedChunks                       0 count
+00:44:24.213853 /GMM/cLeftBehindSharedPages             0 pages
+00:44:24.213855 /GMM/cMaxPages                   4294967295 pages
+00:44:24.213858 /GMM/cOverCommittedPages                0 pages
+00:44:24.213860 /GMM/cReservedPages               1082531 pages
+00:44:24.213862 /GMM/cShareableModules                  0 count
+00:44:24.213865 /GMM/cSharedPages                       0 pages
+00:44:24.213867 /GVMM/EMTs                              2 calls
+00:44:24.213869 /GVMM/HostCPUs                          4 calls
+00:44:24.213872 /GVMM/HostCpus/0                        0 
+00:44:24.213874 /GVMM/HostCpus/0/CurTimerHz             0 Hz
+00:44:24.213876 /GVMM/HostCpus/0/DesiredHz              0 Hz
+00:44:24.213878 /GVMM/HostCpus/0/PPTChanges             0 times
+00:44:24.213880 /GVMM/HostCpus/0/PPTStarts              0 times
+00:44:24.213882 /GVMM/HostCpus/0/idxCpuSet              0 
+00:44:24.213885 /GVMM/HostCpus/1                        1 
+00:44:24.213887 /GVMM/HostCpus/1/CurTimerHz             0 Hz
+00:44:24.213889 /GVMM/HostCpus/1/DesiredHz              0 Hz
+00:44:24.213891 /GVMM/HostCpus/1/PPTChanges             0 times
+00:44:24.213893 /GVMM/HostCpus/1/PPTStarts              0 times
+00:44:24.213895 /GVMM/HostCpus/1/idxCpuSet              1 
+00:44:24.213897 /GVMM/HostCpus/2                        2 
+00:44:24.213900 /GVMM/HostCpus/2/CurTimerHz             0 Hz
+00:44:24.213902 /GVMM/HostCpus/2/DesiredHz              0 Hz
+00:44:24.213904 /GVMM/HostCpus/2/PPTChanges             0 times
+00:44:24.213906 /GVMM/HostCpus/2/PPTStarts              0 times
+00:44:24.213908 /GVMM/HostCpus/2/idxCpuSet              2 
+00:44:24.213910 /GVMM/HostCpus/3                        3 
+00:44:24.213912 /GVMM/HostCpus/3/CurTimerHz             0 Hz
+00:44:24.213914 /GVMM/HostCpus/3/DesiredHz              0 Hz
+00:44:24.213916 /GVMM/HostCpus/3/PPTChanges             0 times
+00:44:24.213918 /GVMM/HostCpus/3/PPTStarts              0 times
+00:44:24.213921 /GVMM/HostCpus/3/idxCpuSet              3 
+00:44:24.213923 /GVMM/Sum/HaltBlocking             780056 calls
+00:44:24.213925 /GVMM/Sum/HaltCalls                780511 calls
+00:44:24.213927 /GVMM/Sum/HaltNotBlocking             456 calls
+00:44:24.213930 /GVMM/Sum/HaltTimeouts             247493 calls
+00:44:24.213932 /GVMM/Sum/HaltWakeUps                   0 calls
+00:44:24.213934 /GVMM/Sum/PokeCalls                 57450 calls
+00:44:24.213936 /GVMM/Sum/PokeNotBusy                2365 calls
+00:44:24.213938 /GVMM/Sum/PollCalls                     0 calls
+00:44:24.213941 /GVMM/Sum/PollHalts                     0 calls
+00:44:24.213945 /GVMM/Sum/PollWakeUps                   0 calls
+00:44:24.213948 /GVMM/Sum/WakeUpCalls              549806 calls
+00:44:24.213950 /GVMM/Sum/WakeUpNotHalted          202768 calls
+00:44:24.213952 /GVMM/Sum/WakeUpWakeUps                 0 calls
+00:44:24.213954 /GVMM/VM/HaltBlocking              780056 calls
+00:44:24.213957 /GVMM/VM/HaltCalls                 780511 calls
+00:44:24.213959 /GVMM/VM/HaltNotBlocking              456 calls
+00:44:24.213961 /GVMM/VM/HaltTimeouts              247493 calls
+00:44:24.213964 /GVMM/VM/HaltWakeUps                    0 calls
+00:44:24.213966 /GVMM/VM/PokeCalls                  57450 calls
+00:44:24.213968 /GVMM/VM/PokeNotBusy                 2365 calls
+00:44:24.213970 /GVMM/VM/PollCalls                      0 calls
+00:44:24.213973 /GVMM/VM/PollHalts                      0 calls
+00:44:24.213975 /GVMM/VM/PollWakeUps                    0 calls
+00:44:24.213977 /GVMM/VM/WakeUpCalls               549806 calls
+00:44:24.213979 /GVMM/VM/WakeUpNotHalted           202768 calls
+00:44:24.213981 /GVMM/VM/WakeUpWakeUps                  0 calls
+00:44:24.213984 /GVMM/VMs                               1 calls
+00:44:24.213986 /HM/CPU0/Exit/HostNmiInGC               1 times
+00:44:24.213988 /HM/CPU0/Switch/Preempting            588 times
+00:44:24.213990 /HM/CPU1/Exit/HostNmiInGC               4 times
+00:44:24.213993 /HM/CPU1/Switch/Preempting           1260 times
+00:44:24.213995 /IEM/CPU0/CodeTlb-Misses                0 count
+00:44:24.213997 /IEM/CPU0/CodeTlb-PhysRev        ffffffffffff9c00 
+00:44:24.214000 /IEM/CPU0/CodeTlb-Revision       fffff38000000000 
+00:44:24.214002 /IEM/CPU0/CodeTlb-SlowReads             0 
+00:44:24.214005 /IEM/CPU0/DataTlb-Misses                0 count
+00:44:24.214007 /IEM/CPU0/DataTlb-PhysRev        ffffffffffff9c00 
+00:44:24.214009 /IEM/CPU0/DataTlb-Revision       fffff38000000000 
+00:44:24.214012 /IEM/CPU0/cInstructions            215817 count
+00:44:24.214014 /IEM/CPU0/cLongJumps                  438 bytes
+00:44:24.214016 /IEM/CPU0/cPendingCommit                0 bytes
+00:44:24.214019 /IEM/CPU0/cPotentialExits          279407 count
+00:44:24.214021 /IEM/CPU0/cRetAspectNotImplemented        0 count
+00:44:24.214023 /IEM/CPU0/cRetErrStatuses               0 count
+00:44:24.214025 /IEM/CPU0/cRetInfStatuses             448 count
+00:44:24.214027 /IEM/CPU0/cRetInstrNotImplemented        0 count
+00:44:24.214029 /IEM/CPU0/cbWritten                338481 bytes
+00:44:24.214032 /IEM/CPU1/CodeTlb-Misses                0 count
+00:44:24.214034 /IEM/CPU1/CodeTlb-PhysRev        ffffffffffff9c00 
+00:44:24.214036 /IEM/CPU1/CodeTlb-Revision       fffff38000000000 
+00:44:24.214039 /IEM/CPU1/CodeTlb-SlowReads             0 
+00:44:24.214041 /IEM/CPU1/DataTlb-Misses                0 count
+00:44:24.214043 /IEM/CPU1/DataTlb-PhysRev        ffffffffffff9c00 
+00:44:24.214045 /IEM/CPU1/DataTlb-Revision       fffff38000000000 
+00:44:24.214048 /IEM/CPU1/cInstructions            258501 count
+00:44:24.214050 /IEM/CPU1/cLongJumps                 1175 bytes
+00:44:24.214052 /IEM/CPU1/cPendingCommit                0 bytes
+00:44:24.214055 /IEM/CPU1/cPotentialExits          259674 count
+00:44:24.214057 /IEM/CPU1/cRetAspectNotImplemented        0 count
+00:44:24.214059 /IEM/CPU1/cRetErrStatuses               0 count
+00:44:24.214062 /IEM/CPU1/cRetInfStatuses            1175 count
+00:44:24.214064 /IEM/CPU1/cRetInstrNotImplemented        0 count
+00:44:24.214066 /IEM/CPU1/cbWritten                498544 bytes
+00:44:24.214068 /MM/HyperHeap/cbFree              1068032 bytes
+00:44:24.214071 /MM/HyperHeap/cbHeap              1310400 bytes
+00:44:24.214073 /PDM/BlkCache/cbCached                  0 bytes
+00:44:24.214076 /PDM/BlkCache/cbCachedFru               0 bytes
+00:44:24.214078 /PDM/BlkCache/cbCachedMruIn             0 bytes
+00:44:24.214080 /PDM/BlkCache/cbCachedMruOut            0 bytes
+00:44:24.214082 /PDM/BlkCache/cbMax               5242880 bytes
+00:44:24.214084 /PDM/CritSects/8237A#0Auto/ContentionR3        0 times
+00:44:24.214087 /PDM/CritSects/8237A#0Auto/ContentionRZLock        0 times
+00:44:24.214089 /PDM/CritSects/8237A#0Auto/ContentionRZUnlock        0 times
+00:44:24.214094 /PDM/CritSects/AC'97/ContentionR3        0 times
+00:44:24.214096 /PDM/CritSects/AC'97/ContentionRZLock        0 times
+00:44:24.214098 /PDM/CritSects/AC'97/ContentionRZUnlock        0 times
+00:44:24.214100 /PDM/CritSects/AHCI#0/ContentionR3        0 times
+00:44:24.214103 /PDM/CritSects/AHCI#0/ContentionRZLock        0 times
+00:44:24.214105 /PDM/CritSects/AHCI#0/ContentionRZUnlock        0 times
+00:44:24.214107 /PDM/CritSects/ATA#0-Ctl/ContentionR3        0 times
+00:44:24.214109 /PDM/CritSects/ATA#0-Ctl/ContentionRZLock        0 times
+00:44:24.214111 /PDM/CritSects/ATA#0-Ctl/ContentionRZUnlock        0 times
+00:44:24.214113 /PDM/CritSects/ATA#0-Req/ContentionR3        0 times
+00:44:24.214115 /PDM/CritSects/ATA#0-Req/ContentionRZLock        0 times
+00:44:24.214117 /PDM/CritSects/ATA#0-Req/ContentionRZUnlock        0 times
+00:44:24.214119 /PDM/CritSects/ATA#1-Ctl/ContentionR3        0 times
+00:44:24.214122 /PDM/CritSects/ATA#1-Ctl/ContentionRZLock        0 times
+00:44:24.214124 /PDM/CritSects/ATA#1-Ctl/ContentionRZUnlock        0 times
+00:44:24.214126 /PDM/CritSects/ATA#1-Req/ContentionR3        0 times
+00:44:24.214128 /PDM/CritSects/ATA#1-Req/ContentionRZLock        0 times
+00:44:24.214130 /PDM/CritSects/ATA#1-Req/ContentionRZUnlock        0 times
+00:44:24.214132 /PDM/CritSects/E1000#0/ContentionR3        0 times
+00:44:24.214134 /PDM/CritSects/E1000#0/ContentionRZLock        0 times
+00:44:24.214136 /PDM/CritSects/E1000#0/ContentionRZUnlock        0 times
+00:44:24.214138 /PDM/CritSects/E1000#0RX/ContentionR3        0 times
+00:44:24.214140 /PDM/CritSects/E1000#0RX/ContentionRZLock        0 times
+00:44:24.214142 /PDM/CritSects/E1000#0RX/ContentionRZUnlock        0 times
+00:44:24.214145 /PDM/CritSects/E1000#0TX/ContentionR3        0 times
+00:44:24.214147 /PDM/CritSects/E1000#0TX/ContentionRZLock        0 times
+00:44:24.214149 /PDM/CritSects/E1000#0TX/ContentionRZUnlock        0 times
+00:44:24.214151 /PDM/CritSects/EHCI#0Irq/ContentionR3        0 times
+00:44:24.214153 /PDM/CritSects/EHCI#0Irq/ContentionRZLock        0 times
+00:44:24.214155 /PDM/CritSects/EHCI#0Irq/ContentionRZUnlock        0 times
+00:44:24.214157 /PDM/CritSects/EM-REM/ContentionR3        0 times
+00:44:24.214159 /PDM/CritSects/EM-REM/ContentionRZLock        0 times
+00:44:24.214161 /PDM/CritSects/EM-REM/ContentionRZUnlock        0 times
+00:44:24.214163 /PDM/CritSects/FTM/ContentionR3         0 times
+00:44:24.214165 /PDM/CritSects/FTM/ContentionRZLock        0 times
+00:44:24.214168 /PDM/CritSects/FTM/ContentionRZUnlock        0 times
+00:44:24.214170 /PDM/CritSects/GIMDev#0Auto/ContentionR3        0 times
+00:44:24.214172 /PDM/CritSects/GIMDev#0Auto/ContentionRZLock        0 times
+00:44:24.214174 /PDM/CritSects/GIMDev#0Auto/ContentionRZUnlock        0 times
+00:44:24.214176 /PDM/CritSects/MM-HYPER/ContentionR3        0 times
+00:44:24.214178 /PDM/CritSects/MM-HYPER/ContentionRZLock        0 times
+00:44:24.214180 /PDM/CritSects/MM-HYPER/ContentionRZUnlock        0 times
+00:44:24.214182 /PDM/CritSects/NOP/ContentionR3         0 times
+00:44:24.214184 /PDM/CritSects/NOP/ContentionRZLock        0 times
+00:44:24.214186 /PDM/CritSects/NOP/ContentionRZUnlock        0 times
+00:44:24.214188 /PDM/CritSects/OHCI#0Irq/ContentionR3        0 times
+00:44:24.214191 /PDM/CritSects/OHCI#0Irq/ContentionRZLock        0 times
+00:44:24.214193 /PDM/CritSects/OHCI#0Irq/ContentionRZUnlock        0 times
+00:44:24.214195 /PDM/CritSects/PDM/ContentionR3         0 times
+00:44:24.214197 /PDM/CritSects/PDM/ContentionRZLock        0 times
+00:44:24.214199 /PDM/CritSects/PDM/ContentionRZUnlock        0 times
+00:44:24.214201 /PDM/CritSects/PGM/ContentionR3         0 times
+00:44:24.214203 /PDM/CritSects/PGM/ContentionRZLock        0 times
+00:44:24.214205 /PDM/CritSects/PGM/ContentionRZUnlock        0 times
+00:44:24.214208 /PDM/CritSects/REM-Register/ContentionR3        0 times
+00:44:24.214210 /PDM/CritSects/REM-Register/ContentionRZLock        0 times
+00:44:24.214212 /PDM/CritSects/REM-Register/ContentionRZUnlock        0 times
+00:44:24.214214 /PDM/CritSects/TM Timer Lock/ContentionR3     2152 times
+00:44:24.214218 /PDM/CritSects/TM Timer Lock/ContentionRZLock        2 times
+00:44:24.214221 /PDM/CritSects/TM Timer Lock/ContentionRZUnlock        0 times
+00:44:24.214223 /PDM/CritSects/TM VirtualSync Lock/ContentionR3        0 times
+00:44:24.214225 /PDM/CritSects/TM VirtualSync Lock/ContentionRZLock     2732 times
+00:44:24.214227 /PDM/CritSects/TM VirtualSync Lock/ContentionRZUnlock        0 times
+00:44:24.214229 /PDM/CritSects/VGA#0/ContentionR3        0 times
+00:44:24.214231 /PDM/CritSects/VGA#0/ContentionRZLock        0 times
+00:44:24.214233 /PDM/CritSects/VGA#0/ContentionRZUnlock        0 times
+00:44:24.214236 /PDM/CritSects/VGA#0_IRQ/ContentionR3        0 times
+00:44:24.214238 /PDM/CritSects/VGA#0_IRQ/ContentionRZLock        0 times
+00:44:24.214240 /PDM/CritSects/VGA#0_IRQ/ContentionRZUnlock        0 times
+00:44:24.214242 /PDM/CritSects/VMMDev#0/ContentionR3        0 times
+00:44:24.214244 /PDM/CritSects/VMMDev#0/ContentionRZLock        0 times
+00:44:24.214246 /PDM/CritSects/VMMDev#0/ContentionRZUnlock        0 times
+00:44:24.214248 /PDM/CritSects/acpi#0/ContentionR3        0 times
+00:44:24.214251 /PDM/CritSects/acpi#0/ContentionRZLock        0 times
+00:44:24.214253 /PDM/CritSects/acpi#0/ContentionRZUnlock        0 times
+00:44:24.214255 /PDM/CritSects/mc146818#0Auto/ContentionR3        0 times
+00:44:24.214257 /PDM/CritSects/mc146818#0Auto/ContentionRZLock        0 times
+00:44:24.214259 /PDM/CritSects/mc146818#0Auto/ContentionRZUnlock        0 times
+00:44:24.214261 /PDM/CritSects/pcarch#0Auto/ContentionR3        0 times
+00:44:24.214263 /PDM/CritSects/pcarch#0Auto/ContentionRZLock        0 times
+00:44:24.214265 /PDM/CritSects/pcarch#0Auto/ContentionRZUnlock        0 times
+00:44:24.214267 /PDM/CritSects/pcbios#0Auto/ContentionR3        0 times
+00:44:24.214270 /PDM/CritSects/pcbios#0Auto/ContentionRZLock        0 times
+00:44:24.214272 /PDM/CritSects/pcbios#0Auto/ContentionRZUnlock        0 times
+00:44:24.214274 /PDM/CritSects/pckbd#0Auto/ContentionR3        0 times
+00:44:24.214276 /PDM/CritSects/pckbd#0Auto/ContentionRZLock        0 times
+00:44:24.214278 /PDM/CritSects/pckbd#0Auto/ContentionRZUnlock        0 times
+00:44:24.214280 /PDM/CritSects/pit#0/ContentionR3        0 times
+00:44:24.214282 /PDM/CritSects/pit#0/ContentionRZLock        0 times
+00:44:24.214284 /PDM/CritSects/pit#0/ContentionRZUnlock        0 times
+00:44:24.214286 /PDM/CritSects/usb-ehci#0Auto/ContentionR3        0 times
+00:44:24.214289 /PDM/CritSects/usb-ehci#0Auto/ContentionRZLock        0 times
+00:44:24.214291 /PDM/CritSects/usb-ehci#0Auto/ContentionRZUnlock        0 times
+00:44:24.214293 /PDM/CritSects/usb-ohci#0Auto/ContentionR3        0 times
+00:44:24.214295 /PDM/CritSects/usb-ohci#0Auto/ContentionRZLock        0 times
+00:44:24.214297 /PDM/CritSects/usb-ohci#0Auto/ContentionRZUnlock        0 times
+00:44:24.214299 /PDM/CritSectsRw/IOM Lock/ContentionR3EnterExcl        0 times
+00:44:24.214301 /PDM/CritSectsRw/IOM Lock/ContentionR3EnterShared        0 times
+00:44:24.214303 /PDM/CritSectsRw/IOM Lock/ContentionRZEnterExcl        0 times
+00:44:24.214305 /PDM/CritSectsRw/IOM Lock/ContentionRZEnterShared        0 times
+00:44:24.214307 /PDM/CritSectsRw/IOM Lock/ContentionRZLeaveExcl        0 times
+00:44:24.214310 /PDM/CritSectsRw/IOM Lock/ContentionRZLeaveShared        0 times
+00:44:24.214312 /PDM/CritSectsRw/IOM Lock/R3EnterExcl      736 times
+00:44:24.214314 /PDM/CritSectsRw/IOM Lock/R3EnterShared   193683 times
+00:44:24.214316 /PDM/CritSectsRw/IOM Lock/RZEnterExcl        0 times
+00:44:24.214318 /PDM/CritSectsRw/IOM Lock/RZEnterShared  2436821 times
+00:44:24.214320 /PDM/Queue/AHCI-Xmit/AllocFailures        0 times
+00:44:24.214322 /PDM/Queue/AHCI-Xmit/Flush              0 calls
+00:44:24.214324 /PDM/Queue/AHCI-Xmit/FlushLeftovers        0 times
+00:44:24.214327 /PDM/Queue/AHCI-Xmit/Insert             0 calls
+00:44:24.214329 /PDM/Queue/AHCI-Xmit/cItems            60 count
+00:44:24.214331 /PDM/Queue/AHCI-Xmit/cbItem            32 bytes
+00:44:24.214333 /PDM/Queue/DevHlp/AllocFailures         0 times
+00:44:24.214338 /PDM/Queue/DevHlp/Flush                 0 calls
+00:44:24.214340 /PDM/Queue/DevHlp/FlushLeftovers        0 times
+00:44:24.214342 /PDM/Queue/DevHlp/Insert                0 calls
+00:44:24.214344 /PDM/Queue/DevHlp/cItems                8 count
+00:44:24.214347 /PDM/Queue/DevHlp/cbItem               64 bytes
+00:44:24.214349 /PDM/Queue/E1000-Rcv/AllocFailures        0 times
+00:44:24.214351 /PDM/Queue/E1000-Rcv/Flush              0 calls
+00:44:24.214354 /PDM/Queue/E1000-Rcv/FlushLeftovers        0 times
+00:44:24.214356 /PDM/Queue/E1000-Rcv/Insert           161 calls
+00:44:24.214358 /PDM/Queue/E1000-Rcv/cItems             1 count
+00:44:24.214360 /PDM/Queue/E1000-Rcv/cbItem            24 bytes
+00:44:24.214363 /PDM/Queue/E1000-Xmit/AllocFailures        0 times
+00:44:24.214365 /PDM/Queue/E1000-Xmit/Flush             0 calls
+00:44:24.214367 /PDM/Queue/E1000-Xmit/FlushLeftovers        0 times
+00:44:24.214369 /PDM/Queue/E1000-Xmit/Insert          257 calls
+00:44:24.214371 /PDM/Queue/E1000-Xmit/cItems            1 count
+00:44:24.214373 /PDM/Queue/E1000-Xmit/cbItem           24 bytes
+00:44:24.214376 /PDM/Queue/Keyboard/AllocFailures        0 times
+00:44:24.214378 /PDM/Queue/Keyboard/Flush               0 calls
+00:44:24.214380 /PDM/Queue/Keyboard/FlushLeftovers        0 times
+00:44:24.214382 /PDM/Queue/Keyboard/Insert             74 calls
+00:44:24.214384 /PDM/Queue/Keyboard/cItems             64 count
+00:44:24.214387 /PDM/Queue/Keyboard/cbItem             32 bytes
+00:44:24.214389 /PDM/Queue/Mouse/AllocFailures          0 times
+00:44:24.214391 /PDM/Queue/Mouse/Flush                  0 calls
+00:44:24.214393 /PDM/Queue/Mouse/FlushLeftovers         0 times
+00:44:24.214395 /PDM/Queue/Mouse/Insert                11 calls
+00:44:24.214398 /PDM/Queue/Mouse/cItems               128 count
+00:44:24.214400 /PDM/Queue/Mouse/cbItem                48 bytes
+00:44:24.214402 /PDM/Queue/Mouse_1/AllocFailures        0 times
+00:44:24.214404 /PDM/Queue/Mouse_1/Flush                0 calls
+00:44:24.214407 /PDM/Queue/Mouse_1/FlushLeftovers        0 times
+00:44:24.214409 /PDM/Queue/Mouse_1/Insert               0 calls
+00:44:24.214411 /PDM/Queue/Mouse_1/cItems             128 count
+00:44:24.214413 /PDM/Queue/Mouse_1/cbItem              48 bytes
+00:44:24.214416 /PGM/CPU0/cA20Changes                   2 times
+00:44:24.214418 /PGM/CPU0/cGuestModeChanges       1586320 times
+00:44:24.214420 /PGM/CPU1/cA20Changes                   0 times
+00:44:24.214422 /PGM/CPU1/cGuestModeChanges             3 times
+00:44:24.214425 /PGM/ChunkR3Map/Mapped                859 count
+00:44:24.214427 /PGM/ChunkR3Map/Unmapped                0 count
+00:44:24.214429 /PGM/ChunkR3Map/c                     859 count
+00:44:24.214431 /PGM/ChunkR3Map/cMax             4294967295 count
+00:44:24.214434 /PGM/LargePage/Recheck                  0 times
+00:44:24.214436 /PGM/LargePage/Refused                  0 times
+00:44:24.214438 /PGM/LargePage/Reused                   0 times
+00:44:24.214441 /PGM/Page/cAllPages               1082440 count
+00:44:24.214444 /PGM/Page/cBalloonedPages               0 count
+00:44:24.214446 /PGM/Page/cHandyPages                  88 count
+00:44:24.214448 /PGM/Page/cLargePages                   0 count
+00:44:24.214451 /PGM/Page/cLargePagesDisabled           0 count
+00:44:24.214453 /PGM/Page/cMonitoredPages               0 count
+00:44:24.214455 /PGM/Page/cPrivatePages            473065 count
+00:44:24.214457 /PGM/Page/cPureMmioPages               38 count
+00:44:24.214459 /PGM/Page/cReadLockedPages              0 count
+00:44:24.214461 /PGM/Page/cReusedSharedPages            0 count
+00:44:24.214463 /PGM/Page/cSharedPages                  0 count
+00:44:24.214466 /PGM/Page/cWriteLockedPages             0 count
+00:44:24.214468 /PGM/Page/cWrittenToPages               0 count
+00:44:24.214470 /PGM/Page/cZeroPages               609337 count
+00:44:24.214472 /PGM/ShMod/Check                        0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+00:44:24.214475 /PGM/cRelocations                       0 times
+00:44:24.214478 /PROF/CPU0/EM/Capped                    0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+00:44:24.214483 /PROF/CPU0/EM/ForcedActions        202271 times
+00:44:24.214485 /PROF/CPU0/EM/Halted               161686 times
+00:44:24.214487 /PROF/CPU0/EM/RAWTotal                  0 times
+00:44:24.214490 /PROF/CPU0/EM/REMTotal                  0 times
+00:44:24.214492 /PROF/CPU0/EM/Total              8492019738047 ticks/call (8492019738047 ticks,       1 times, max 8492019738047, min 8492019738047)
+00:44:24.214496 /PROF/CPU0/VM/Halt/Block         15611407 ns/call (2614520411864 ticks,  167475 times, max 461463913, min       1)
+00:44:24.214499 /PROF/CPU0/VM/Halt/BlockInsomnia        0 ns/call (           0 ticks,       0 times, max         0, min      -1)
+00:44:24.214502 /PROF/CPU0/VM/Halt/BlockOnTime          0 ns/call (           0 ticks,       0 times, max         0, min      -1)
+00:44:24.214504 /PROF/CPU0/VM/Halt/BlockOverslept        0 ns/call (           0 ticks,       0 times, max         0, min      -1)
+00:44:24.214507 /PROF/CPU0/VM/Halt/Timers             445 ns/call (   146350345 ticks,  328398 times, max     95017, min       1)
+00:44:24.214510 /PROF/CPU0/VM/Halt/Yield                0 ns/call (           0 ticks,       0 times, max         0, min      -1)
+00:44:24.214513 /PROF/CPU1/EM/Capped                    0 ticks/call (           0 ticks,       0 times, max         0, min      -1)
+00:44:24.214515 /PROF/CPU1/EM/ForcedActions        308061 times
+00:44:24.214517 /PROF/CPU1/EM/Halted               264141 times
+00:44:24.214520 /PROF/CPU1/EM/RAWTotal                  0 times
+00:44:24.214522 /PROF/CPU1/EM/REMTotal                  0 times
+00:44:24.214524 /PROF/CPU1/EM/Total              8492019744123 ticks/call (8492019744123 ticks,       1 times, max 8492019744123, min 8492019744123)
+00:44:24.214528 /PROF/CPU1/VM/Halt/Block          4213963 ns/call (2583269090756 ticks,  613026 times, max 282512914, min       1)
+00:44:24.214531 /PROF/CPU1/VM/Halt/BlockInsomnia        0 ns/call (           0 ticks,       0 times, max         0, min      -1)
+00:44:24.214533 /PROF/CPU1/VM/Halt/BlockOnTime          0 ns/call (           0 ticks,       0 times, max         0, min      -1)
+00:44:24.214535 /PROF/CPU1/VM/Halt/BlockOverslept        0 ns/call (           0 ticks,       0 times, max         0, min      -1)
+00:44:24.214538 /PROF/CPU1/VM/Halt/Timers            5540 ns/call (  4787772042 ticks,  864211 times, max   7472423, min       2)
+00:44:24.214541 /PROF/CPU1/VM/Halt/Yield             2808 ns/call (        5616 ticks,       2 times, max      5615, min       1)
+00:44:24.214544 /Public/Net/E1k0/BytesReceived      46468 bytes
+00:44:24.214546 /Public/Net/E1k0/BytesTransmitted    26701 bytes
+00:44:24.214548 /REM/TbFlushCount                       0 times
+00:44:24.214550 /REM/TbPhysInvldCount                   0 times
+00:44:24.214553 /REM/TlbFlushCount                      2 times
+00:44:24.214555 /SELM/LoadHidSel/GstReadErrors          0 times
+00:44:24.214557 /SELM/LoadHidSel/NoGoodGuest            0 times
+00:44:24.214559 /TM/CPU/00/cNsExecuting          28579245849 ns
+00:44:24.214562 /TM/CPU/00/cNsHalted             2614878056530 ns
+00:44:24.214564 /TM/CPU/00/cNsOther              16265994344 ns
+00:44:24.214566 /TM/CPU/00/cNsTotal              2659723296723 ns
+00:44:24.214569 /TM/CPU/00/cPeriodsExecuting      5243992 count
+00:44:24.214571 /TM/CPU/00/cPeriodsHalted          160923 count
+00:44:24.214573 /TM/CPU/00/pctExecuting                 0 %
+00:44:24.214576 /TM/CPU/00/pctHalted                   99 %
+00:44:24.214578 /TM/CPU/00/pctOther                     0 %
+00:44:24.214580 /TM/CPU/01/cNsExecuting          57398610063 ns
+00:44:24.214582 /TM/CPU/01/cNsHalted             2588761374039 ns
+00:44:24.214585 /TM/CPU/01/cNsOther              13563295759 ns
+00:44:24.214587 /TM/CPU/01/cNsTotal              2659723279861 ns
+00:44:24.214590 /TM/CPU/01/cPeriodsExecuting      1934411 count
+00:44:24.214592 /TM/CPU/01/cPeriodsHalted          250851 count
+00:44:24.214594 /TM/CPU/01/pctExecuting                 4 %
+00:44:24.214596 /TM/CPU/01/pctHalted                   95 %
+00:44:24.214601 /TM/CPU/01/pctOther                     0 %
+00:44:24.214603 /TM/CPU/pctExecuting                    2 %
+00:44:24.214605 /TM/CPU/pctHalted                      97 %
+00:44:24.214608 /TM/CPU/pctOther                        0 %
+00:44:24.214610 /TM/MaxHzHint                           0 Hz
+00:44:24.214613 /TM/R0/1nsSteps                     21804 times
+00:44:24.214615 /TM/R3/1nsSteps                     25557 times
+00:44:24.214618 /TM/TSC/offCPU0                  1638037431648 ticks
+00:44:24.214620 /TM/TSC/offCPU1                  1638037431648 ticks
+00:44:24.214623 /TM/VirtualSync/CurrentOffset     2023561 ns
+00:44:24.214625 /VUSB/0/cUrbsInPool                     0 count
+00:44:24.214627 /VUSB/1/cUrbsInPool                     0 count
+00:44:24.214630 ********************* End of statistics **********************
+00:44:24.214741 VUSB: Detached 'HidMouse' from port 1 on RootHub#1
+00:44:24.219659 NAT: Zone(nm:mbuf_cluster, used:0)
+00:44:24.219856 NAT: Zone(nm:mbuf_packet, used:0)
+00:44:24.219861 NAT: Zone(nm:mbuf, used:1)
+00:44:24.219866 NAT: Zone(nm:mbuf_jumbo_pagesize, used:0)
+00:44:24.220051 NAT: Zone(nm:mbuf_jumbo_9k, used:0)
+00:44:24.220147 NAT: Zone(nm:mbuf_jumbo_16k, used:0)
+00:44:24.220199 NAT: Zone(nm:mbuf_ext_refcnt, used:0)
+00:44:24.220215 E1000#0 Interrupt attempts: 2059
+00:44:24.220218 E1000#0 Interrupts raised : 1685
+00:44:24.220220 E1000#0 Interrupts lowered: 1
+00:44:24.220222 E1000#0 ICR outside ISR   : 0
+00:44:24.220224 E1000#0 IMS raised ints   : 73
+00:44:24.220226 E1000#0 Interrupts skipped: 242
+00:44:24.220229 E1000#0 Masked interrupts : 132
+00:44:24.220231 E1000#0 Early interrupts  : 0
+00:44:24.220233 E1000#0 Late interrupts   : 38
+00:44:24.220235 E1000#0 Lost interrupts   : 0
+00:44:24.220237 E1000#0 Interrupts by RX  : 197
+00:44:24.220239 E1000#0 Interrupts by TX  : 256
+00:44:24.220241 E1000#0 Interrupts by ICS : 1311
+00:44:24.220243 E1000#0 Interrupts by RDTR: 0
+00:44:24.220245 E1000#0 Interrupts by RDMT: 0
+00:44:24.220247 E1000#0 Interrupts by TXQE: 0
+00:44:24.220249 E1000#0 TX int delay asked: 0
+00:44:24.220251 E1000#0 TX delayed:         0
+00:44:24.220253 E1000#0 TX delay expired:   0
+00:44:24.220255 E1000#0 TX no report asked: 224
+00:44:24.220257 E1000#0 TX abs timer expd : 0
+00:44:24.220259 E1000#0 TX int timer expd : 0
+00:44:24.220261 E1000#0 RX abs timer expd : 0
+00:44:24.220263 E1000#0 RX int timer expd : 0
+00:44:24.220265 E1000#0 TX CTX descriptors: 224
+00:44:24.220267 E1000#0 TX DAT descriptors: 224
+00:44:24.220269 E1000#0 TX LEG descriptors: 32
+00:44:24.220271 E1000#0 Received frames   : 197
+00:44:24.220273 E1000#0 Transmitted frames: 256
+00:44:24.220275 E1000#0 TX frames up to 1514: 256
+00:44:24.220278 E1000#0 TX frames up to 2962: 0
+00:44:24.220280 E1000#0 TX frames up to 4410: 0
+00:44:24.220282 E1000#0 TX frames up to 5858: 0
+00:44:24.220284 E1000#0 TX frames up to 7306: 0
+00:44:24.220286 E1000#0 TX frames up to 8754: 0
+00:44:24.220288 E1000#0 TX frames up to 16384: 0
+00:44:24.220290 E1000#0 TX frames up to 32768: 0
+00:44:24.220292 E1000#0 Larger TX frames    : 0
+00:44:24.220294 E1000#0 Max TX Delay        : 0
+00:44:24.257357 GIM: KVM: Resetting MSRs
+00:44:24.259210 Changing the VM state from 'DESTROYING' to 'TERMINATED'
+00:44:24.261935 Console: Machine state changed to 'PoweredOff'
+00:44:24.851105 GUI: Passing request to close Runtime UI from machine-logic to UI session.
